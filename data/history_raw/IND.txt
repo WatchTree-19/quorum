@@ -1,0 +1,17 @@
+Moody's | 1988-01-28 | A2
+Moody's | 1990-10-04 | Baa1
+Moody's | 1991-03-26 | Baa3
+Moody's | 1998-06-19 | Ba2
+Moody's | 2003-02-03 | Ba1
+Moody's | 2004-01-22 | Baa3
+Moody's | 2017-11-16 | Baa2
+Moody's | 2020-06-01 | Baa3
+S&P | 2000-03-08 | BB+
+S&P | 2001-11-22 | BB
+S&P | 2004-01-21 | BB+
+S&P | 2006-08-01 | BBB-
+S&P | 2025-08-14 | BBB
+Fitch | 2000-03-08 | BB+
+Fitch | 2001-11-22 | BB
+Fitch | 2004-01-21 | BB+
+Fitch | 2006-08-01 | BBB-

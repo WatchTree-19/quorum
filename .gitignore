@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+contested_stock_months.csv

@@ -1,0 +1,125 @@
+country,iso3,sp,moodys,fitch
+Albania,ALB,BB,Ba3,
+Angola,AGO,B-,B3,B-
+Argentina,ARG,B-,B3,B-
+Armenia,ARM,BB-,Ba3,BB-
+Australia,AUS,AAA,Aaa,AAA
+Austria,AUT,AA+,Aa1,AA
+Azerbaijan,AZE,BB+,Ba1,BBB-
+Bahamas,BHS,BB-,B1,BB-
+Bahrain,BHR,B,B2,B
+Bangladesh,BGD,B+,B1,B+
+Barbados,BRB,B+,B3,B+
+Belgium,BEL,AA,Aa3,A+
+Belize,BLZ,B-,Caa2,
+Benin,BEN,BB-,B1,B+
+Bolivia,BOL,CCC+,Caa1,CCC
+Bosnia and Herzegovina,BIH,B+,B3,
+Botswana,BWA,BBB,A3,
+Brazil,BRA,BB,Ba1,BB
+Bulgaria,BGR,BBB+,Baa1,BBB+
+Cabo Verde,CPV,B,,B
+Cameroon,CMR,B-,Caa1,B
+Canada,CAN,AAA,Aaa,AA+
+Chile,CHL,A,A2,A-
+China,CHN,A+,A1,A
+Colombia,COL,BB,Baa2,BB
+Costa Rica,CRI,BB,Ba3,BB
+Cote d'Ivoire,CIV,BB,Ba3,BB
+Croatia,HRV,A,A3,A-
+Cyprus,CYP,A-,A3,A-
+Czechia,CZE,AA-,Aa3,AA-
+Denmark,DNK,AAA,Aaa,AAA
+Dominican Republic,DOM,BB,Ba3,BB-
+Ecuador,ECU,B-,Caa3,B-
+Egypt,EGY,B,Caa1,B
+El Salvador,SLV,B-,B3,B-
+Estonia,EST,A+,A1,A+
+Ethiopia,ETH,SD,Caa3,RD
+Fiji,FJI,B+,B1,
+Finland,FIN,AA+,Aa1,AA
+France,FRA,A+,Aa3,A+
+Gabon,GAB,,Caa1,CCC-
+Georgia,GEO,BB,Ba2,BB
+Germany,DEU,AAA,Aaa,AAA
+Ghana,GHA,B-,Caa3,B-
+Greece,GRC,BBB,Baa3,BBB
+Guatemala,GTM,BB+,Ba1,BB+
+Honduras,HND,BB-,B1,
+Hong Kong,HKG,AA+,Aa3,AA-
+Hungary,HUN,BBB-,Ba1,BBB
+Iceland,ISL,A+,A1,
+India,IND,BBB,Baa3,BBB-
+Indonesia,IDN,BBB,Baa2,BBB
+Iraq,IRQ,B-,Caa1,B-
+Ireland,IRL,AA+,Aa3,AA
+Israel,ISR,A,Baa1,A
+Italy,ITA,BBB+,Baa2,BBB+
+Jamaica,JAM,BB,B1,BB-
+Japan,JPN,A+,A1,A
+Jordan,JOR,BB-,B1,BB-
+Kazakhstan,KAZ,BBB,Baa1,BBB
+Kenya,KEN,B,B3,B-
+Kuwait,KWT,AA-,A1,AA-
+Kyrgyzstan,KGZ,B+,B3,B
+Laos,LAO,CCC+,,CCC+
+Latvia,LVA,A,A3,A-
+Lebanon,LBN,SD,C,
+Lithuania,LTU,A,A2,A
+Luxembourg,LUX,AAA,Aaa,AAA
+Macao,MAC,,Aa3,AA
+Malaysia,MYS,A-,A3,BBB+
+Maldives,MDV,,Caa2,CC
+Malta,MLT,A-,A2,A+
+Mauritius,MUS,BBB-,Baa3,
+Mexico,MEX,BBB,Baa2,BBB-
+Moldova,MDA,BB-,B2,B+
+Mongolia,MNG,BB-,B3,B+
+Montenegro,MNE,B+,Ba3,
+Morocco,MAR,BBB-,Ba1,BB+
+Mozambique,MOZ,CCC+,Caa2,CCC
+Netherlands,NLD,AAA,Aaa,AAA
+New Zealand,NZL,AA+,Aaa,AA+
+Nicaragua,NIC,B+,B3,B
+Nigeria,NGA,B-,Caa1,B
+North Macedonia,MKD,BB-,,BB+
+Norway,NOR,AAA,Aaa,AAA
+Oman,OMN,BBB-,Baa3,BBB-
+Pakistan,PAK,B-,Caa1,B-
+Panama,PAN,BBB-,Baa3,BB+
+Papua New Guinea,PNG,B-,B2,
+Paraguay,PRY,BBB-,Baa3,BB+
+Peru,PER,BBB-,Baa1,BBB
+Philippines,PHL,BBB+,Baa2,BBB
+Poland,POL,A-,A2,A-
+Portugal,PRT,A+,A3,A
+Qatar,QAT,AA,Aa3,AA
+Romania,ROU,BBB-,Baa3,BBB-
+Rwanda,RWA,B+,B2,B+
+Saudi Arabia,SAU,A+,Aa3,A+
+Senegal,SEN,CCC+,Ba3,
+Serbia,SRB,BBB-,Ba2,BB+
+Singapore,SGP,AAA,Aaa,AAA
+Slovakia,SVK,A,A3,A-
+Slovenia,SVN,AA,A2,A+
+South Africa,ZAF,BB,Ba2,BB-
+South Korea,KOR,AA,Aa2,AA-
+Spain,ESP,A+,A3,A
+Sri Lanka,LKA,CCC+,Caa1,CCC+
+Suriname,SUR,CCC+,Caa3,
+Sweden,SWE,AAA,Aaa,AAA
+Switzerland,CHE,AAA,Aaa,AAA
+Tajikistan,TJK,B,B3,
+Thailand,THA,BBB+,Baa1,BBB+
+Trinidad and Tobago,TTO,BBB-,Ba2,
+Tunisia,TUN,,Caa1,B-
+Turkey,TUR,BB-,B1,BB-
+Uganda,UGA,B-,B2,B
+Ukraine,UKR,CCC+,Ca,CCC
+United Arab Emirates,ARE,AA,Aa2,AA-
+United Kingdom,GBR,AA,Aa3,AA-
+United States,USA,AA+,Aa1,AA+
+Uruguay,URY,BBB+,Baa1,BBB
+Uzbekistan,UZB,BB,Ba3,BB
+Vietnam,VNM,BB+,Ba2,BB+
+Zambia,ZMB,CCC+,Caa3,B-

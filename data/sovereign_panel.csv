@@ -1,0 +1,125 @@
+country,iso3,sp,moodys,fitch,gdp_pc_usd,inflation_pct,current_account_pct_gdp
+Albania,ALB,BB,Ba3,,13000.1,2.15,-0.53
+Angola,AGO,B-,B3,B-,3129.5,20.16,0.44
+Argentina,ARG,B-,B3,B-,14898.1,219.88,-1.11
+Armenia,ARM,BB-,Ba3,BB-,9474.0,3.31,-7.22
+Australia,AUS,AAA,Aaa,AAA,65129.7,2.87,-2.68
+Austria,AUT,AA+,Aa1,AA,62930.0,3.53,1.79
+Azerbaijan,AZE,BB+,Ba1,BBB-,7410.7,5.62,4.58
+Bahamas,BHS,BB-,B1,BB-,39455.4,0.41,-6.65
+Bahrain,BHR,B,B2,B,30596.6,-0.14,4.83
+Bangladesh,BGD,B+,B1,B+,2597.3,8.77,-0.05
+Barbados,BRB,B+,B3,B+,28364.8,0.85,-5.07
+Belgium,BEL,AA,Aa3,A+,60750.3,2.47,-1.93
+Belize,BLZ,B-,Caa2,,7865.5,1.06,-2.77
+Benin,BEN,BB-,B1,B+,1658.3,1.1,-8.18
+Bolivia,BOL,CCC+,Caa1,CCC,5147.8,19.52,-1.88
+Bosnia and Herzegovina,BIH,B+,B3,,10381.8,6.11,-3.14
+Botswana,BWA,BBB,A3,,7778.1,2.66,-4.26
+Brazil,BRA,BB,Ba1,BB,10713.3,5.02,-2.93
+Bulgaria,BGR,BBB+,Baa1,BBB+,20328.2,4.58,-5.84
+Cabo Verde,CPV,B,,B,5796.5,2.34,3.53
+Cameroon,CMR,B-,Caa1,B,1972.4,3.4,-3.28
+Canada,CAN,AAA,Aaa,AA+,55697.7,2.07,-0.95
+Chile,CHL,A,A2,A-,17994.6,4.21,-1.22
+China,CHN,A+,A1,A,13862.0,0.06,3.77
+Colombia,COL,BB,Baa2,BB,8561.6,5.14,-2.38
+Costa Rica,CRI,BB,Ba3,BB,19970.1,-0.07,-0.67
+Cote d'Ivoire,CIV,BB,Ba3,BB,3050.1,0.13,-4.47
+Croatia,HRV,A,A3,A-,27104.0,3.69,-2.08
+Cyprus,CYP,A-,A3,A-,41783.1,0.13,-6.29
+Czechia,CZE,AA-,Aa3,AA-,35917.3,2.46,0.62
+Denmark,DNK,AAA,Aaa,AAA,76970.2,1.89,12.2
+Dominican Republic,DOM,BB,Ba3,BB-,11059.2,3.87,-1.17
+Ecuador,ECU,B-,Caa3,B-,7125.3,0.71,5.91
+Egypt,EGY,B,Caa1,B,3085.8,14.07,-3.82
+El Salvador,SLV,B-,B3,B-,5766.7,0.26,-3.54
+Estonia,EST,A+,A1,A+,34417.6,4.83,-0.15
+Ethiopia,ETH,SD,Caa3,RD,932.7,13.23,-2.53
+Fiji,FJI,B+,B1,,6642.0,-1.38,-7.78
+Finland,FIN,AA+,Aa1,AA,56148.6,0.34,1.34
+France,FRA,A+,Aa3,A+,48985.7,0.94,-0.27
+Gabon,GAB,,Caa1,CCC-,8263.0,1.77,0.98
+Georgia,GEO,BB,Ba2,BB,9691.5,3.87,-2.65
+Germany,DEU,AAA,Aaa,AAA,60496.4,2.17,4.51
+Ghana,GHA,B-,Caa3,B-,3257.2,14.2,8.22
+Greece,GRC,BBB,Baa3,BBB,26948.0,2.48,-7.11
+Guatemala,GTM,BB+,Ba1,BB+,6598.2,1.49,2.89
+Honduras,HND,BB-,B1,,3598.2,4.6,2.36
+Hong Kong,HKG,AA+,Aa3,AA-,56983.1,1.44,13.34
+Hungary,HUN,BBB-,Ba1,BBB,25907.5,4.41,1.65
+Iceland,ISL,A+,A1,,98323.5,4.09,-3.48
+India,IND,BBB,Baa3,BBB-,2702.5,2.4,-0.42
+Indonesia,IDN,BBB,Baa2,BBB,5059.6,1.91,-0.11
+Iraq,IRQ,B-,Caa1,B-,5409.7,0.3,2.99
+Ireland,IRL,AA+,Aa3,AA,131592.5,2.21,17.4
+Israel,ISR,A,Baa1,A,60336.8,3.04,1.4
+Italy,ITA,BBB+,Baa2,BBB+,43308.6,1.53,1.15
+Jamaica,JAM,BB,B1,BB-,8002.9,4.0,3.08
+Japan,JPN,A+,A1,A,35951.0,3.17,4.86
+Jordan,JOR,BB-,B1,BB-,5347.8,1.77,-5.33
+Kazakhstan,KAZ,BBB,Baa1,BBB,14692.1,11.39,-4.07
+Kenya,KEN,B,B3,B-,2362.9,4.07,-1.29
+Kuwait,KWT,AA-,A1,AA-,32312.3,2.36,22.7
+Kyrgyzstan,KGZ,B+,B3,B,3081.0,8.21,-22.64
+Laos,LAO,CCC+,,CCC+,2324.8,7.74,3.22
+Latvia,LVA,A,A3,A-,26312.0,3.75,-3.38
+Lebanon,LBN,SD,C,,4473.3,14.6,-28.1
+Lithuania,LTU,A,A2,A,32958.7,3.79,0.94
+Luxembourg,LUX,AAA,Aaa,AAA,147252.2,2.26,5.23
+Macao,MAC,,Aa3,AA,75901.7,0.33,33.73
+Malaysia,MYS,A-,A3,BBB+,13124.6,1.38,1.69
+Maldives,MDV,,Caa2,CC,14614.7,4.01,-18.68
+Malta,MLT,A-,A2,A+,47906.9,2.36,7.1
+Mauritius,MUS,BBB-,Baa3,,12991.3,3.67,-7.03
+Mexico,MEX,BBB,Baa2,BBB-,13889.2,3.81,-0.45
+Moldova,MDA,BB-,B2,B+,8621.7,7.76,-19.64
+Mongolia,MNG,BB-,B3,B+,7108.2,8.61,-10.45
+Montenegro,MNE,B+,Ba3,,14816.8,3.9,-20.38
+Morocco,MAR,BBB-,Ba1,BB+,4672.5,0.7,-2.5
+Mozambique,MOZ,CCC+,Caa2,CCC,626.9,4.37,-10.96
+Netherlands,NLD,AAA,Aaa,AAA,73683.9,3.26,9.14
+New Zealand,NZL,AA+,Aaa,AA+,49591.0,2.84,-3.62
+Nicaragua,NIC,B+,B3,B,3173.3,2.08,4.15
+Nigeria,NGA,B-,Caa1,B,1224.3,23.01,4.83
+North Macedonia,MKD,BB-,,BB+,10489.9,4.07,-4.27
+Norway,NOR,AAA,Aaa,AAA,94594.2,3.06,13.97
+Oman,OMN,BBB-,Baa3,BBB-,19947.4,0.97,2.86
+Pakistan,PAK,B-,Caa1,B-,1595.9,3.55,-0.11
+Panama,PAN,BBB-,Baa3,BB+,19789.7,-0.19,-0.19
+Papua New Guinea,PNG,B-,B2,,3019.5,4.42,15.48
+Paraguay,PRY,BBB-,Baa3,BB+,7026.6,4.04,-3.18
+Peru,PER,BBB-,Baa1,BBB,9684.4,1.53,3.58
+Philippines,PHL,BBB+,Baa2,BBB,4170.7,1.66,-3.34
+Poland,POL,A-,A2,A-,28419.5,3.81,-0.87
+Portugal,PRT,A+,A3,A,32081.8,2.34,2.08
+Qatar,QAT,AA,Aa3,AA,72524.9,1.27,14.81
+Romania,ROU,BBB-,Baa3,BBB-,22537.9,7.19,-7.9
+Rwanda,RWA,B+,B2,B+,1123.7,5.91,-11.96
+Saudi Arabia,SAU,A+,Aa3,A+,34536.6,2.08,-2.56
+Senegal,SEN,CCC+,Ba3,,1954.7,1.46,-19.78
+Serbia,SRB,BBB-,Ba2,BB+,15262.0,3.89,-4.9
+Singapore,SGP,AAA,Aaa,AAA,98813.9,0.9,16.71
+Slovakia,SVK,A,A3,A-,28543.6,4.0,-3.63
+Slovenia,SVN,AA,A2,A+,37376.2,2.37,3.55
+South Africa,ZAF,BB,Ba2,BB-,6597.7,3.21,-0.42
+South Korea,KOR,AA,Aa2,AA-,36226.9,2.12,6.57
+Spain,ESP,A+,A3,A,38627.2,2.7,2.94
+Sri Lanka,LKA,CCC+,Caa1,CCC+,5002.1,-4.76,1.21
+Suriname,SUR,CCC+,Caa3,,7069.8,9.21,-54.92
+Sweden,SWE,AAA,Aaa,AAA,63133.2,0.68,6.06
+Switzerland,CHE,AAA,Aaa,AAA,114769.0,0.15,6.98
+Tajikistan,TJK,B,B3,,1637.2,6.0,17.1
+Thailand,THA,BBB+,Baa1,BBB+,8056.5,-0.13,2.76
+Trinidad and Tobago,TTO,BBB-,Ba2,,18967.2,0.99,4.81
+Tunisia,TUN,,Caa1,B-,4656.6,5.15,-1.51
+Turkey,TUR,BB-,B1,BB-,18599.4,34.88,-0.77
+Uganda,UGA,B-,B2,B,1206.3,3.58,-7.78
+Ukraine,UKR,CCC+,Ca,CCC,5865.8,12.73,-7.96
+United Arab Emirates,ARE,AA,Aa2,AA-,50273.5,1.25,14.48
+United Kingdom,GBR,AA,Aa3,AA-,57601.9,3.88,-2.43
+United States,USA,AA+,Aa1,AA+,90026.5,2.95,-3.63
+Uruguay,URY,BBB+,Baa1,BBB,25215.8,4.65,-0.44
+Uzbekistan,UZB,BB,Ba3,BB,3968.2,8.8,-3.93
+Vietnam,VNM,BB+,Ba2,BB+,5065.9,3.31,6.33
+Zambia,ZMB,CCC+,Caa3,B-,1317.8,13.91,-4.41

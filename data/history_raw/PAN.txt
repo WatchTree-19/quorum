@@ -1,0 +1,16 @@
+Moody's | 1997-01-22 | Ba1
+Moody's | 2010-06-09 | Baa3
+Moody's | 2012-10-31 | Baa2
+Moody's | 2019-03-08 | Baa1
+Moody's | 2021-03-17 | Baa2
+Moody's | 2023-10-31 | Baa3
+S&P | 2010-05-25 | BBB-
+S&P | 2012-07-02 | BBB
+S&P | 2019-04-29 | BBB+
+S&P | 2020-11-24 | BBB
+S&P | 2024-11-26 | BBB-
+Fitch | 2008-01-29 | BB+
+Fitch | 2010-03-23 | BBB-
+Fitch | 2011-06-02 | BBB
+Fitch | 2021-02-03 | BBB-
+Fitch | 2024-03-28 | BB+

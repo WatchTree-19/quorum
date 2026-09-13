@@ -2,3 +2,5 @@ __pycache__/
 *.pyc
 .pytest_cache/
 contested_stock_months.csv
+llm_cache/
+llm_results/

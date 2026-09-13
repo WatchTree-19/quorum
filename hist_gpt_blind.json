@@ -1,0 +1,7225 @@
+{
+  "model": "openai:gpt-4.1 (blind, history)",
+  "provider": "openai",
+  "model_id": "gpt-4.1",
+  "style": "blind",
+  "panel": "sovereign_history",
+  "sampling": {
+    "contested_scored": 522,
+    "unanimous_scored": 500,
+    "unanimous_available": 2175,
+    "seed": 0,
+    "panel_total": 2697,
+    "note": "overall_accuracy is on the stratified set, not the panel"
+  },
+  "n_items": 1022,
+  "label_alpha": 0.6954275133177632,
+  "contested_share": 0.1935483870967742,
+  "label_alpha_stratified_set": 0.22388381923700096,
+  "contested_share_stratified_set": 0.5107632093933464,
+  "overall_accuracy": 0.5365517241379311,
+  "headline_contested_accuracy": 0.48639455782312924,
+  "reliability_gap": 0.08437110342977094,
+  "expected_calibration_error": 0.26797241379310344,
+  "strata": {
+    "unanimous": {
+      "n": 500,
+      "scored": 431,
+      "accuracy": 0.5707656612529002,
+      "abstain_rate": 0.138,
+      "confident_commit_rate": 0.614
+    },
+    "majority": {
+      "n": 401,
+      "scored": 294,
+      "accuracy": 0.48639455782312924,
+      "abstain_rate": 0.26683291770573564,
+      "confident_commit_rate": 0.4937655860349127
+    },
+    "split": {
+      "n": 121,
+      "scored": 0,
+      "accuracy": null,
+      "abstain_rate": 0.1487603305785124,
+      "confident_commit_rate": 0.628099173553719
+    }
+  },
+  "affinity": {
+    "SP": {
+      "n": 321,
+      "agreement": 0.5015576323987538
+    },
+    "MOODYS": {
+      "n": 393,
+      "agreement": 0.455470737913486
+    },
+    "FITCH": {
+      "n": 374,
+      "agreement": 0.5347593582887701
+    }
+  },
+  "predictions": [
+    {
+      "item_id": "AZE:2006Q3",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "AZE:2007Q2",
+      "label": 1,
+      "confidence": 0.85,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "AZE:2007Q3",
+      "label": 1,
+      "confidence": 0.85,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "AZE:2008Q1",
+      "label": 1,
+      "confidence": 0.8,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "AZE:2010Q2",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "AZE:2010Q3",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "AZE:2010Q4",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "AZE:2011Q1",
+      "label": 0,
+      "confidence": 0.17,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "AZE:2011Q2",
+      "label": 0,
+      "confidence": 0.17,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "AZE:2011Q3",
+      "label": 0,
+      "confidence": 0.17,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "AZE:2011Q4",
+      "label": 0,
+      "confidence": 0.17,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "AZE:2012Q1",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "AZE:2012Q2",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "AZE:2012Q3",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "AZE:2012Q4",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "AZE:2013Q1",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "AZE:2013Q2",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "AZE:2013Q3",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "AZE:2013Q4",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "AZE:2014Q1",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "AZE:2014Q2",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "AZE:2014Q3",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "AZE:2014Q4",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "AZE:2015Q1",
+      "label": 0,
+      "confidence": 0.2,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "AZE:2015Q2",
+      "label": 0,
+      "confidence": 0.2,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "AZE:2015Q3",
+      "label": 0,
+      "confidence": 0.2,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "AZE:2015Q4",
+      "label": 0,
+      "confidence": 0.2,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "AZE:2016Q2",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "AZE:2016Q4",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "AZE:2018Q3",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "AZE:2019Q1",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "AZE:2019Q3",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "AZE:2019Q4",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "AZE:2021Q4",
+      "label": 0,
+      "confidence": 0.12,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "AZE:2023Q2",
+      "label": 0,
+      "confidence": 0.22,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "AZE:2025Q3",
+      "label": 0,
+      "confidence": 0.15,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "AZE:2025Q4",
+      "label": 0,
+      "confidence": 0.15,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "AZE:2026Q1",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "AZE:2026Q2",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "BGR:1999Q1",
+      "label": 1,
+      "confidence": 0.64,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BGR:1999Q2",
+      "label": 1,
+      "confidence": 0.64,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BGR:2001Q1",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BGR:2001Q3",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BGR:2003Q2",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BGR:2004Q2",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BGR:2004Q3",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "BGR:2004Q4",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "BGR:2005Q1",
+      "label": 1,
+      "confidence": 0.87,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "BGR:2005Q2",
+      "label": 1,
+      "confidence": 0.87,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "BGR:2005Q3",
+      "label": 1,
+      "confidence": 0.87,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "BGR:2005Q4",
+      "label": 1,
+      "confidence": 0.87,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "BGR:2006Q2",
+      "label": 1,
+      "confidence": 0.85,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "BGR:2006Q3",
+      "label": 1,
+      "confidence": 0.85,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "BGR:2007Q2",
+      "label": 1,
+      "confidence": 0.94,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "BGR:2007Q3",
+      "label": 1,
+      "confidence": 0.94,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "BGR:2008Q1",
+      "label": 1,
+      "confidence": 0.95,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "BGR:2008Q3",
+      "label": 1,
+      "confidence": 0.95,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "BGR:2009Q4",
+      "label": 1,
+      "confidence": 0.78,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "BGR:2010Q2",
+      "label": 0,
+      "confidence": 0.09,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "BGR:2011Q1",
+      "label": 0,
+      "confidence": 0.15,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "BGR:2012Q1",
+      "label": 0,
+      "confidence": 0.15,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "BGR:2013Q4",
+      "label": 0,
+      "confidence": 0.08,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "BGR:2014Q4",
+      "label": null,
+      "confidence": 0.4,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "BGR:2015Q1",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "BGR:2015Q2",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "BGR:2015Q3",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "BGR:2015Q4",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "BGR:2016Q1",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "BGR:2016Q2",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "BGR:2016Q3",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "BGR:2016Q4",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "BGR:2017Q1",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "BGR:2017Q2",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "BGR:2017Q3",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "BGR:2019Q1",
+      "label": 0,
+      "confidence": 0.12,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "BGR:2020Q4",
+      "label": 0,
+      "confidence": 0.13,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "BGR:2022Q1",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "BGR:2023Q1",
+      "label": 0,
+      "confidence": 0.22,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "BGR:2023Q2",
+      "label": 0,
+      "confidence": 0.22,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "BGR:2025Q4",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "BGR:2026Q2",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "BHR:2003Q1",
+      "label": 0,
+      "confidence": 0.03,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "BHR:2005Q2",
+      "label": 0,
+      "confidence": 0.01,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "BHR:2006Q1",
+      "label": 0,
+      "confidence": 0.01,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "BHR:2007Q1",
+      "label": 0,
+      "confidence": 0.03,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "BHR:2007Q2",
+      "label": 0,
+      "confidence": 0.03,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "BHR:2008Q2",
+      "label": 0,
+      "confidence": 0.01,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "BHR:2008Q3",
+      "label": 0,
+      "confidence": 0.01,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "BHR:2009Q1",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "BHR:2010Q2",
+      "label": 0,
+      "confidence": 0.03,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "BHR:2012Q1",
+      "label": 0,
+      "confidence": 0.03,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "BHR:2013Q3",
+      "label": 0,
+      "confidence": 0.01,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "BHR:2015Q4",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "BHR:2016Q1",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "BHR:2016Q2",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "BHR:2016Q3",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "BHR:2016Q4",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "BHR:2017Q1",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "BHR:2017Q4",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BHR:2018Q2",
+      "label": null,
+      "confidence": 0.35,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BHR:2018Q3",
+      "label": null,
+      "confidence": 0.35,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BHR:2020Q3",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BHR:2022Q3",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BHR:2025Q4",
+      "label": 0,
+      "confidence": 0.02,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BHR:2026Q2",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BRA:1995Q3",
+      "label": 1,
+      "confidence": 0.85,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BRA:1996Q2",
+      "label": 1,
+      "confidence": 0.85,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BRA:1998Q1",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BRA:1999Q1",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BRA:1999Q2",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BRA:1999Q4",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BRA:2001Q4",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BRA:2002Q2",
+      "label": 1,
+      "confidence": 0.65,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BRA:2003Q2",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BRA:2003Q4",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BRA:2004Q3",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BRA:2006Q1",
+      "label": 0,
+      "confidence": 0.22,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BRA:2006Q2",
+      "label": 0,
+      "confidence": 0.22,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BRA:2007Q1",
+      "label": 0,
+      "confidence": 0.2,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BRA:2008Q2",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "BRA:2008Q3",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "BRA:2008Q4",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "BRA:2009Q1",
+      "label": 0,
+      "confidence": 0.18,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "BRA:2009Q2",
+      "label": 0,
+      "confidence": 0.18,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "BRA:2011Q3",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "BRA:2012Q2",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "BRA:2012Q3",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "BRA:2013Q2",
+      "label": null,
+      "confidence": 0.55,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "BRA:2014Q1",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "BRA:2015Q2",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "BRA:2015Q3",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "BRA:2015Q4",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "BRA:2016Q2",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BRA:2016Q4",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BRA:2017Q4",
+      "label": 0,
+      "confidence": 0.18,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BRA:2018Q2",
+      "label": 0,
+      "confidence": 0.18,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BRA:2019Q1",
+      "label": 0,
+      "confidence": 0.25,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BRA:2019Q2",
+      "label": 0,
+      "confidence": 0.25,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BRA:2019Q3",
+      "label": 0,
+      "confidence": 0.25,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BRA:2020Q1",
+      "label": 0,
+      "confidence": 0.18,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BRA:2021Q1",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BRA:2021Q3",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BRA:2022Q1",
+      "label": 1,
+      "confidence": 0.67,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BRA:2022Q3",
+      "label": 1,
+      "confidence": 0.67,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "BRA:2023Q4",
+      "label": 0,
+      "confidence": 0.18,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:1995Q1",
+      "label": 1,
+      "confidence": 0.82,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "COL:1995Q2",
+      "label": 1,
+      "confidence": 0.82,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "COL:1995Q4",
+      "label": 1,
+      "confidence": 0.82,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "COL:1997Q3",
+      "label": 1,
+      "confidence": 0.85,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "COL:1998Q1",
+      "label": 1,
+      "confidence": 0.85,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "COL:1998Q3",
+      "label": 1,
+      "confidence": 0.85,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "COL:1999Q3",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "COL:1999Q4",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "COL:2000Q1",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "COL:2000Q2",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "COL:2000Q3",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "COL:2000Q4",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2001Q1",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2001Q2",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2003Q1",
+      "label": 1,
+      "confidence": 0.65,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2003Q4",
+      "label": 1,
+      "confidence": 0.65,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2004Q3",
+      "label": null,
+      "confidence": 0.35,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2005Q1",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2005Q4",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2006Q2",
+      "label": 0,
+      "confidence": 0.18,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "COL:2006Q3",
+      "label": 0,
+      "confidence": 0.18,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "COL:2006Q4",
+      "label": 0,
+      "confidence": 0.18,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "COL:2007Q1",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "COL:2007Q2",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "COL:2007Q3",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "COL:2007Q4",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "COL:2008Q1",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "COL:2008Q2",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2008Q3",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2008Q4",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2009Q1",
+      "label": 0,
+      "confidence": 0.2,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2009Q2",
+      "label": 0,
+      "confidence": 0.2,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2009Q3",
+      "label": 0,
+      "confidence": 0.2,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2009Q4",
+      "label": 0,
+      "confidence": 0.2,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2010Q1",
+      "label": null,
+      "confidence": 0.4,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2010Q2",
+      "label": null,
+      "confidence": 0.4,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2010Q3",
+      "label": null,
+      "confidence": 0.4,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2010Q4",
+      "label": null,
+      "confidence": 0.4,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2011Q1",
+      "label": 0,
+      "confidence": 0.25,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2013Q3",
+      "label": 0,
+      "confidence": 0.23,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "COL:2013Q4",
+      "label": 0,
+      "confidence": 0.23,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "COL:2014Q1",
+      "label": 1,
+      "confidence": 0.64,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "COL:2014Q3",
+      "label": 1,
+      "confidence": 0.64,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "COL:2015Q3",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "COL:2015Q4",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "COL:2016Q2",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "COL:2016Q3",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "COL:2017Q4",
+      "label": null,
+      "confidence": 0.48,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "COL:2018Q3",
+      "label": null,
+      "confidence": 0.55,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "COL:2018Q4",
+      "label": null,
+      "confidence": 0.55,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "COL:2021Q2",
+      "label": 1,
+      "confidence": 0.65,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "COL:2021Q3",
+      "label": 1,
+      "confidence": 0.65,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2021Q4",
+      "label": 1,
+      "confidence": 0.65,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2022Q1",
+      "label": 1,
+      "confidence": 0.78,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2022Q2",
+      "label": 1,
+      "confidence": 0.78,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2022Q3",
+      "label": 1,
+      "confidence": 0.78,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2022Q4",
+      "label": 1,
+      "confidence": 0.78,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2023Q1",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2023Q2",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2023Q3",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2023Q4",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2024Q1",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2024Q2",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2024Q3",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2024Q4",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2025Q1",
+      "label": null,
+      "confidence": 0.46,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2025Q2",
+      "label": null,
+      "confidence": 0.46,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2025Q3",
+      "label": null,
+      "confidence": 0.46,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2025Q4",
+      "label": null,
+      "confidence": 0.46,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2026Q1",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "COL:2026Q2",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "CYP:2008Q3",
+      "label": 1,
+      "confidence": 0.8,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "CYP:2009Q4",
+      "label": null,
+      "confidence": 0.32,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "CYP:2010Q2",
+      "label": 1,
+      "confidence": 0.85,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "CYP:2010Q4",
+      "label": 1,
+      "confidence": 0.85,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "CYP:2011Q4",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "CYP:2012Q1",
+      "label": 0,
+      "confidence": 0.08,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "CYP:2012Q3",
+      "label": 0,
+      "confidence": 0.08,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "CYP:2013Q3",
+      "label": 0,
+      "confidence": 0.15,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "CYP:2017Q3",
+      "label": 0,
+      "confidence": 0.12,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "CYP:2018Q2",
+      "label": 0,
+      "confidence": 0.08,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "CYP:2018Q3",
+      "label": 0,
+      "confidence": 0.08,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "CYP:2018Q4",
+      "label": 0,
+      "confidence": 0.08,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "CYP:2019Q1",
+      "label": null,
+      "confidence": 0.3,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "CYP:2019Q2",
+      "label": null,
+      "confidence": 0.3,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "CYP:2019Q3",
+      "label": null,
+      "confidence": 0.3,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "CYP:2019Q4",
+      "label": null,
+      "confidence": 0.3,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "CYP:2020Q1",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "CYP:2020Q2",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "CYP:2020Q3",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "CYP:2020Q4",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "CYP:2021Q1",
+      "label": 0,
+      "confidence": 0.15,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "CYP:2021Q2",
+      "label": 0,
+      "confidence": 0.15,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "CYP:2021Q3",
+      "label": 0,
+      "confidence": 0.15,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "CYP:2021Q4",
+      "label": 0,
+      "confidence": 0.15,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "CYP:2022Q1",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "CYP:2022Q2",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "CYP:2022Q3",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "CYP:2022Q4",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "CYP:2023Q1",
+      "label": 0,
+      "confidence": 0.25,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "CYP:2023Q2",
+      "label": 0,
+      "confidence": 0.25,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "CYP:2024Q2",
+      "label": null,
+      "confidence": 0.35,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "GRC:2010Q4",
+      "label": 1,
+      "confidence": 0.82,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "GRC:2011Q3",
+      "label": 1,
+      "confidence": 0.8,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "GRC:2011Q4",
+      "label": 1,
+      "confidence": 0.8,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "GRC:2015Q4",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "GRC:2016Q2",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "GRC:2016Q4",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "GRC:2017Q2",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "GRC:2020Q2",
+      "label": null,
+      "confidence": 0.55,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "GRC:2021Q3",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "GRC:2021Q4",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "GRC:2022Q1",
+      "label": 1,
+      "confidence": 0.85,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "GRC:2022Q2",
+      "label": 1,
+      "confidence": 0.85,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "GRC:2022Q3",
+      "label": 1,
+      "confidence": 0.85,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "GRC:2024Q2",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "GRC:2024Q3",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "GRC:2024Q4",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "GRC:2025Q1",
+      "label": 0,
+      "confidence": 0.07,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "GRC:2025Q2",
+      "label": 0,
+      "confidence": 0.07,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "GRC:2025Q3",
+      "label": 0,
+      "confidence": 0.07,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "GRC:2025Q4",
+      "label": 0,
+      "confidence": 0.07,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "GRC:2026Q1",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "GRC:2026Q2",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "HRV:1999Q2",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "HRV:1999Q3",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "HRV:1999Q4",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "HRV:2000Q1",
+      "label": 0,
+      "confidence": 0.23,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "HRV:2000Q2",
+      "label": 0,
+      "confidence": 0.23,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "HRV:2000Q3",
+      "label": 0,
+      "confidence": 0.23,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "HRV:2000Q4",
+      "label": 0,
+      "confidence": 0.23,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "HRV:2001Q1",
+      "label": 0,
+      "confidence": 0.18,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "HRV:2001Q4",
+      "label": 0,
+      "confidence": 0.18,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "HRV:2002Q3",
+      "label": null,
+      "confidence": 0.4,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "HRV:2004Q2",
+      "label": 1,
+      "confidence": 0.67,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "HRV:2006Q2",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "HRV:2006Q4",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "HRV:2007Q1",
+      "label": 1,
+      "confidence": 0.68,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "HRV:2007Q3",
+      "label": 1,
+      "confidence": 0.68,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "HRV:2009Q3",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "HRV:2011Q1",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "HRV:2011Q4",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "HRV:2012Q1",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "HRV:2012Q4",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "HRV:2013Q1",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "HRV:2013Q2",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "HRV:2013Q3",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "HRV:2013Q4",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "HRV:2014Q1",
+      "label": 0,
+      "confidence": 0.15,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "HRV:2014Q2",
+      "label": 0,
+      "confidence": 0.15,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "HRV:2014Q3",
+      "label": 0,
+      "confidence": 0.15,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "HRV:2014Q4",
+      "label": 0,
+      "confidence": 0.15,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "HRV:2015Q1",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "HRV:2015Q2",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "HRV:2015Q3",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "HRV:2015Q4",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "HRV:2016Q1",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "HRV:2016Q2",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "HRV:2016Q3",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "HRV:2016Q4",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "HRV:2017Q1",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "HRV:2017Q2",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "HRV:2017Q3",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "HRV:2017Q4",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "HRV:2018Q3",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "HRV:2018Q4",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "HRV:2019Q1",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "HRV:2019Q2",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "HRV:2019Q3",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "HRV:2019Q4",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "HRV:2020Q1",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "HRV:2020Q2",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "HRV:2020Q3",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "HRV:2020Q4",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "HRV:2021Q1",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "HRV:2021Q2",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "HRV:2021Q3",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "HRV:2021Q4",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "HRV:2022Q1",
+      "label": null,
+      "confidence": 0.52,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "HRV:2022Q2",
+      "label": null,
+      "confidence": 0.52,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "HRV:2022Q3",
+      "label": null,
+      "confidence": 0.52,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "HRV:2022Q4",
+      "label": null,
+      "confidence": 0.52,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "HRV:2023Q1",
+      "label": 0,
+      "confidence": 0.18,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "HRV:2023Q2",
+      "label": 0,
+      "confidence": 0.18,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "HRV:2023Q3",
+      "label": 0,
+      "confidence": 0.18,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "HRV:2023Q4",
+      "label": 0,
+      "confidence": 0.18,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "HUN:1996Q2",
+      "label": 1,
+      "confidence": 0.8,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "HUN:1996Q3",
+      "label": 1,
+      "confidence": 0.8,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "HUN:1996Q4",
+      "label": 1,
+      "confidence": 0.8,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "HUN:1997Q4",
+      "label": 1,
+      "confidence": 0.78,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "HUN:1998Q2",
+      "label": 1,
+      "confidence": 0.82,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "HUN:1998Q3",
+      "label": 1,
+      "confidence": 0.82,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "HUN:2001Q2",
+      "label": 1,
+      "confidence": 0.8,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "HUN:2002Q3",
+      "label": 1,
+      "confidence": 0.67,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "HUN:2003Q1",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "HUN:2003Q3",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "HUN:2004Q4",
+      "label": 1,
+      "confidence": 0.8,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "HUN:2005Q3",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "HUN:2010Q3",
+      "label": 0,
+      "confidence": 0.15,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "HUN:2011Q4",
+      "label": 0,
+      "confidence": 0.15,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "HUN:2012Q3",
+      "label": 0,
+      "confidence": 0.18,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "HUN:2012Q4",
+      "label": 0,
+      "confidence": 0.18,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "HUN:2014Q4",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "HUN:2015Q2",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "HUN:2015Q4",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "HUN:2016Q1",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "HUN:2016Q2",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "HUN:2016Q3",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "HUN:2017Q2",
+      "label": 0,
+      "confidence": 0.07,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "HUN:2017Q3",
+      "label": 0,
+      "confidence": 0.07,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "HUN:2017Q4",
+      "label": 0,
+      "confidence": 0.07,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "HUN:2019Q2",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "HUN:2020Q1",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "HUN:2020Q3",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "HUN:2022Q2",
+      "label": 1,
+      "confidence": 0.85,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "HUN:2024Q1",
+      "label": 0,
+      "confidence": 0.07,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "HUN:2025Q1",
+      "label": 0,
+      "confidence": 0.12,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IDN:1997Q4",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "IDN:1998Q1",
+      "label": 1,
+      "confidence": 0.88,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "IDN:1998Q2",
+      "label": 1,
+      "confidence": 0.88,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "IDN:1998Q3",
+      "label": 1,
+      "confidence": 0.88,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "IDN:1998Q4",
+      "label": 1,
+      "confidence": 0.88,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "IDN:1999Q1",
+      "label": 1,
+      "confidence": 0.82,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "IDN:1999Q2",
+      "label": 1,
+      "confidence": 0.82,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "IDN:1999Q3",
+      "label": 1,
+      "confidence": 0.82,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "IDN:1999Q4",
+      "label": 1,
+      "confidence": 0.82,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "IDN:2000Q1",
+      "label": 1,
+      "confidence": 0.65,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "IDN:2000Q4",
+      "label": 1,
+      "confidence": 0.65,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "IDN:2001Q3",
+      "label": 1,
+      "confidence": 0.8,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "IDN:2001Q4",
+      "label": 1,
+      "confidence": 0.8,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "IDN:2002Q4",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "IDN:2005Q4",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "IDN:2006Q1",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "IDN:2006Q2",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "IDN:2006Q3",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "IDN:2007Q2",
+      "label": 1,
+      "confidence": 0.65,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "IDN:2008Q3",
+      "label": 1,
+      "confidence": 0.8,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "IDN:2009Q1",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "IDN:2010Q2",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "IDN:2011Q1",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "IDN:2011Q4",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "IDN:2012Q1",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "IDN:2012Q2",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "IDN:2012Q3",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "IDN:2012Q4",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "IDN:2013Q1",
+      "label": 1,
+      "confidence": 0.62,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "IDN:2013Q2",
+      "label": 1,
+      "confidence": 0.62,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IDN:2014Q2",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IDN:2015Q1",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IDN:2016Q3",
+      "label": 0,
+      "confidence": 0.25,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IDN:2018Q1",
+      "label": 0,
+      "confidence": 0.28,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IDN:2018Q2",
+      "label": 0,
+      "confidence": 0.28,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IDN:2018Q4",
+      "label": 0,
+      "confidence": 0.28,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IDN:2019Q4",
+      "label": 0,
+      "confidence": 0.2,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IDN:2021Q1",
+      "label": 0,
+      "confidence": 0.2,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IDN:2021Q3",
+      "label": 0,
+      "confidence": 0.2,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IDN:2022Q3",
+      "label": 0,
+      "confidence": 0.25,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IDN:2023Q2",
+      "label": 0,
+      "confidence": 0.15,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IDN:2025Q1",
+      "label": 0,
+      "confidence": 0.15,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IDN:2025Q2",
+      "label": 0,
+      "confidence": 0.15,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IDN:2025Q4",
+      "label": 0,
+      "confidence": 0.15,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IND:2001Q1",
+      "label": 1,
+      "confidence": 0.85,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "IND:2002Q2",
+      "label": 1,
+      "confidence": 0.82,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "IND:2002Q4",
+      "label": 1,
+      "confidence": 0.82,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "IND:2004Q1",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "IND:2004Q2",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "IND:2004Q3",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "IND:2004Q4",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "IND:2005Q1",
+      "label": 1,
+      "confidence": 0.82,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "IND:2005Q2",
+      "label": 1,
+      "confidence": 0.82,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "IND:2005Q3",
+      "label": 1,
+      "confidence": 0.82,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "IND:2005Q4",
+      "label": 1,
+      "confidence": 0.82,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "IND:2006Q1",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "IND:2006Q2",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "IND:2007Q3",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IND:2007Q4",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IND:2008Q1",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IND:2009Q2",
+      "label": 1,
+      "confidence": 0.82,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IND:2009Q3",
+      "label": 1,
+      "confidence": 0.82,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IND:2011Q1",
+      "label": 1,
+      "confidence": 0.8,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IND:2012Q1",
+      "label": 1,
+      "confidence": 0.83,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IND:2013Q4",
+      "label": 1,
+      "confidence": 0.82,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IND:2015Q4",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IND:2016Q2",
+      "label": 1,
+      "confidence": 0.68,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IND:2018Q2",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IND:2018Q4",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IND:2019Q1",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IND:2019Q3",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IND:2021Q2",
+      "label": 1,
+      "confidence": 0.68,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IND:2021Q4",
+      "label": 1,
+      "confidence": 0.68,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IND:2022Q3",
+      "label": 1,
+      "confidence": 0.74,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IND:2023Q3",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IND:2024Q1",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IND:2024Q4",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IND:2025Q1",
+      "label": 0,
+      "confidence": 0.2,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IRL:2009Q1",
+      "label": null,
+      "confidence": 0.3,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IRL:2009Q4",
+      "label": null,
+      "confidence": 0.3,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IRL:2011Q3",
+      "label": 0,
+      "confidence": 0.02,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "IRL:2011Q4",
+      "label": 0,
+      "confidence": 0.02,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "IRL:2012Q1",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "IRL:2012Q2",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "IRL:2012Q3",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "IRL:2012Q4",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "IRL:2013Q1",
+      "label": 0,
+      "confidence": 0.02,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "IRL:2013Q2",
+      "label": 0,
+      "confidence": 0.02,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "IRL:2013Q3",
+      "label": 0,
+      "confidence": 0.02,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "IRL:2013Q4",
+      "label": 0,
+      "confidence": 0.02,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "IRL:2014Q4",
+      "label": 0,
+      "confidence": 0.01,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IRL:2015Q1",
+      "label": 0,
+      "confidence": 0.01,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IRL:2015Q2",
+      "label": 0,
+      "confidence": 0.01,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IRL:2019Q3",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IRL:2021Q2",
+      "label": 0,
+      "confidence": 0.01,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IRL:2021Q3",
+      "label": 0,
+      "confidence": 0.01,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IRL:2021Q4",
+      "label": 0,
+      "confidence": 0.01,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IRL:2023Q1",
+      "label": 0,
+      "confidence": 0.03,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IRL:2024Q1",
+      "label": 0,
+      "confidence": 0.01,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IRL:2024Q4",
+      "label": 0,
+      "confidence": 0.01,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IRL:2025Q2",
+      "label": 0,
+      "confidence": 0.01,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "IRL:2025Q4",
+      "label": 0,
+      "confidence": 0.01,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "KAZ:1997Q1",
+      "label": 1,
+      "confidence": 0.82,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "KAZ:1997Q2",
+      "label": 1,
+      "confidence": 0.82,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "KAZ:1998Q3",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "KAZ:1999Q3",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "KAZ:2000Q1",
+      "label": 1,
+      "confidence": 0.65,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "KAZ:2000Q3",
+      "label": 1,
+      "confidence": 0.65,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "KAZ:2000Q4",
+      "label": 1,
+      "confidence": 0.65,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "KAZ:2002Q3",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "KAZ:2002Q4",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "KAZ:2003Q1",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "KAZ:2003Q2",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "KAZ:2003Q3",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "KAZ:2003Q4",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "KAZ:2004Q1",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "KAZ:2004Q2",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "KAZ:2004Q3",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "KAZ:2006Q1",
+      "label": null,
+      "confidence": 0.48,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "KAZ:2007Q3",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "KAZ:2007Q4",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "KAZ:2009Q3",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "KAZ:2010Q4",
+      "label": 0,
+      "confidence": 0.3,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "KAZ:2013Q2",
+      "label": 0,
+      "confidence": 0.15,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "KAZ:2018Q1",
+      "label": 0,
+      "confidence": 0.18,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "KAZ:2018Q3",
+      "label": 0,
+      "confidence": 0.18,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "KAZ:2019Q1",
+      "label": 0,
+      "confidence": 0.22,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "KAZ:2019Q2",
+      "label": 0,
+      "confidence": 0.22,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "KAZ:2019Q3",
+      "label": 0,
+      "confidence": 0.22,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "KAZ:2020Q4",
+      "label": 1,
+      "confidence": 0.73,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "KAZ:2022Q1",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "KAZ:2023Q1",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "KAZ:2023Q3",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "KAZ:2024Q1",
+      "label": null,
+      "confidence": 0.4,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "LVA:2000Q1",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "LVA:2002Q2",
+      "label": 1,
+      "confidence": 0.68,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "LVA:2003Q2",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "LVA:2005Q3",
+      "label": 1,
+      "confidence": 0.83,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "LVA:2006Q3",
+      "label": 1,
+      "confidence": 0.85,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "LVA:2006Q4",
+      "label": 1,
+      "confidence": 0.85,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "LVA:2009Q2",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "LVA:2009Q3",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "LVA:2009Q4",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "LVA:2010Q1",
+      "label": 0,
+      "confidence": 0.17,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "LVA:2010Q2",
+      "label": 0,
+      "confidence": 0.17,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "LVA:2010Q3",
+      "label": 0,
+      "confidence": 0.17,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "LVA:2010Q4",
+      "label": 0,
+      "confidence": 0.17,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "LVA:2011Q1",
+      "label": 0,
+      "confidence": 0.22,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "LVA:2011Q2",
+      "label": 0,
+      "confidence": 0.22,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "LVA:2011Q3",
+      "label": 0,
+      "confidence": 0.22,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "LVA:2011Q4",
+      "label": 0,
+      "confidence": 0.22,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "LVA:2012Q1",
+      "label": 0,
+      "confidence": 0.15,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "LVA:2012Q3",
+      "label": 0,
+      "confidence": 0.15,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "LVA:2013Q3",
+      "label": 0,
+      "confidence": 0.11,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "LVA:2014Q4",
+      "label": 0,
+      "confidence": 0.08,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "LVA:2015Q1",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "LVA:2016Q2",
+      "label": 0,
+      "confidence": 0.08,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "LVA:2016Q4",
+      "label": 0,
+      "confidence": 0.08,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "LVA:2018Q2",
+      "label": 0,
+      "confidence": 0.07,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "LVA:2018Q3",
+      "label": 0,
+      "confidence": 0.07,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "LVA:2019Q1",
+      "label": 0,
+      "confidence": 0.08,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "LVA:2019Q2",
+      "label": 0,
+      "confidence": 0.08,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "LVA:2022Q2",
+      "label": 1,
+      "confidence": 0.83,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "LVA:2025Q1",
+      "label": 0,
+      "confidence": 0.12,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "LVA:2025Q4",
+      "label": 0,
+      "confidence": 0.12,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "LVA:2026Q2",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2007Q2",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "MAR:2007Q3",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "MAR:2007Q4",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "MAR:2008Q1",
+      "label": 1,
+      "confidence": 0.82,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "MAR:2008Q2",
+      "label": 1,
+      "confidence": 0.82,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "MAR:2008Q3",
+      "label": 1,
+      "confidence": 0.82,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "MAR:2008Q4",
+      "label": 1,
+      "confidence": 0.82,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "MAR:2009Q1",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "MAR:2009Q2",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "MAR:2009Q3",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "MAR:2009Q4",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "MAR:2010Q1",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2010Q2",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2010Q3",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2010Q4",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2011Q1",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2011Q2",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2011Q3",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2011Q4",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2012Q1",
+      "label": 1,
+      "confidence": 0.73,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2012Q2",
+      "label": 1,
+      "confidence": 0.73,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2012Q3",
+      "label": 1,
+      "confidence": 0.73,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2012Q4",
+      "label": 1,
+      "confidence": 0.73,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2013Q1",
+      "label": 1,
+      "confidence": 0.8,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2013Q2",
+      "label": 1,
+      "confidence": 0.8,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2013Q3",
+      "label": 1,
+      "confidence": 0.8,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2013Q4",
+      "label": 1,
+      "confidence": 0.8,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2014Q1",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2014Q2",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2014Q3",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2014Q4",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2015Q1",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2015Q2",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2015Q3",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2015Q4",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2016Q1",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2016Q2",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2016Q3",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2016Q4",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2017Q1",
+      "label": 1,
+      "confidence": 0.65,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2017Q2",
+      "label": 1,
+      "confidence": 0.65,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2017Q3",
+      "label": 1,
+      "confidence": 0.65,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2017Q4",
+      "label": 1,
+      "confidence": 0.65,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2018Q1",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2018Q2",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2018Q3",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2018Q4",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2019Q1",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2019Q2",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2019Q3",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2019Q4",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2020Q1",
+      "label": null,
+      "confidence": 0.55,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2020Q2",
+      "label": null,
+      "confidence": 0.55,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2020Q3",
+      "label": null,
+      "confidence": 0.55,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "MAR:2021Q2",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "MAR:2021Q3",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "MAR:2022Q3",
+      "label": 1,
+      "confidence": 0.77,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "MAR:2024Q1",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "MAR:2026Q2",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "OMN:2007Q4",
+      "label": 0,
+      "confidence": 0.12,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "OMN:2008Q1",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "OMN:2011Q1",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "OMN:2011Q3",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "OMN:2013Q1",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "OMN:2013Q3",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "OMN:2013Q4",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "OMN:2014Q4",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "OMN:2015Q4",
+      "label": 1,
+      "confidence": 0.78,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "OMN:2017Q2",
+      "label": 1,
+      "confidence": 0.8,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "OMN:2017Q3",
+      "label": 1,
+      "confidence": 0.8,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "OMN:2017Q4",
+      "label": 1,
+      "confidence": 0.8,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "OMN:2018Q1",
+      "label": 0,
+      "confidence": 0.18,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "OMN:2018Q2",
+      "label": 0,
+      "confidence": 0.18,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "OMN:2018Q3",
+      "label": 0,
+      "confidence": 0.18,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "OMN:2018Q4",
+      "label": 0,
+      "confidence": 0.18,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "OMN:2021Q4",
+      "label": 0,
+      "confidence": 0.18,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "OMN:2022Q1",
+      "label": 0,
+      "confidence": 0.03,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "OMN:2023Q2",
+      "label": 0,
+      "confidence": 0.02,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "OMN:2024Q3",
+      "label": 0,
+      "confidence": 0.07,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "OMN:2024Q4",
+      "label": 0,
+      "confidence": 0.07,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "OMN:2025Q1",
+      "label": null,
+      "confidence": 0.15,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "OMN:2025Q2",
+      "label": null,
+      "confidence": 0.15,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "OMN:2025Q3",
+      "label": null,
+      "confidence": 0.15,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "OMN:2025Q4",
+      "label": null,
+      "confidence": 0.15,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "OMN:2026Q1",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "OMN:2026Q2",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "PAN:2008Q3",
+      "label": 1,
+      "confidence": 0.82,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "PAN:2009Q1",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "PAN:2010Q1",
+      "label": 1,
+      "confidence": 0.78,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "PAN:2011Q4",
+      "label": 1,
+      "confidence": 0.82,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PAN:2012Q1",
+      "label": 1,
+      "confidence": 0.8,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PAN:2012Q2",
+      "label": 1,
+      "confidence": 0.8,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PAN:2012Q3",
+      "label": 1,
+      "confidence": 0.8,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PAN:2014Q2",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PAN:2015Q1",
+      "label": 1,
+      "confidence": 0.65,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PAN:2015Q3",
+      "label": 1,
+      "confidence": 0.65,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PAN:2015Q4",
+      "label": 1,
+      "confidence": 0.65,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PAN:2016Q1",
+      "label": 1,
+      "confidence": 0.65,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PAN:2017Q4",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PAN:2018Q1",
+      "label": 1,
+      "confidence": 0.65,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PAN:2019Q1",
+      "label": 1,
+      "confidence": 0.65,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PAN:2020Q1",
+      "label": 0,
+      "confidence": 0.18,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PAN:2020Q2",
+      "label": 0,
+      "confidence": 0.18,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PAN:2021Q1",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PAN:2022Q3",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PAN:2023Q3",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PAN:2024Q1",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "PAN:2024Q2",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "PAN:2024Q3",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "PAN:2024Q4",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "PAN:2025Q1",
+      "label": 0,
+      "confidence": 0.08,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "PAN:2025Q2",
+      "label": 0,
+      "confidence": 0.08,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "PAN:2025Q3",
+      "label": 0,
+      "confidence": 0.08,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "PAN:2025Q4",
+      "label": 0,
+      "confidence": 0.08,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "PAN:2026Q1",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "PAN:2026Q2",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "PER:2000Q2",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "PER:2001Q4",
+      "label": null,
+      "confidence": 0.51,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "PER:2002Q4",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "PER:2004Q2",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "PER:2004Q3",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "PER:2004Q4",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "PER:2007Q1",
+      "label": null,
+      "confidence": 0.35,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "PER:2008Q1",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "PER:2008Q2",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "PER:2008Q3",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "PER:2008Q4",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "PER:2009Q1",
+      "label": 0,
+      "confidence": 0.15,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "PER:2009Q2",
+      "label": 0,
+      "confidence": 0.15,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "PER:2009Q3",
+      "label": 0,
+      "confidence": 0.15,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "PER:2010Q1",
+      "label": 0,
+      "confidence": 0.25,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PER:2011Q1",
+      "label": 0,
+      "confidence": 0.25,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PER:2011Q2",
+      "label": 0,
+      "confidence": 0.25,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PER:2011Q4",
+      "label": 0,
+      "confidence": 0.25,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PER:2012Q3",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PER:2013Q1",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PER:2013Q4",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PER:2014Q1",
+      "label": 1,
+      "confidence": 0.65,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PER:2017Q1",
+      "label": 0,
+      "confidence": 0.22,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PER:2017Q4",
+      "label": 0,
+      "confidence": 0.22,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PER:2018Q4",
+      "label": 0,
+      "confidence": 0.15,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PER:2022Q2",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PER:2022Q4",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PER:2023Q2",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PER:2024Q2",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PER:2024Q3",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PHL:2002Q1",
+      "label": 1,
+      "confidence": 0.81,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "PHL:2002Q4",
+      "label": 1,
+      "confidence": 0.81,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "PHL:2003Q2",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "PHL:2004Q2",
+      "label": 1,
+      "confidence": 0.68,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "PHL:2005Q3",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "PHL:2006Q1",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "PHL:2006Q2",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "PHL:2007Q1",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "PHL:2007Q3",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "PHL:2011Q1",
+      "label": 1,
+      "confidence": 0.62,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "PHL:2012Q4",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "PHL:2013Q2",
+      "label": null,
+      "confidence": 0.55,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "PHL:2013Q3",
+      "label": null,
+      "confidence": 0.55,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "PHL:2013Q4",
+      "label": null,
+      "confidence": 0.55,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "PHL:2014Q1",
+      "label": 1,
+      "confidence": 0.68,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "PHL:2014Q2",
+      "label": 1,
+      "confidence": 0.68,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "PHL:2014Q3",
+      "label": 1,
+      "confidence": 0.68,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "PHL:2014Q4",
+      "label": 1,
+      "confidence": 0.68,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "PHL:2015Q1",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "PHL:2015Q2",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "PHL:2015Q3",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "PHL:2015Q4",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "PHL:2016Q1",
+      "label": null,
+      "confidence": 0.48,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "PHL:2016Q2",
+      "label": null,
+      "confidence": 0.48,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "PHL:2016Q3",
+      "label": null,
+      "confidence": 0.48,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "PHL:2016Q4",
+      "label": null,
+      "confidence": 0.48,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "PHL:2017Q3",
+      "label": null,
+      "confidence": 0.52,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PHL:2018Q1",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PHL:2019Q3",
+      "label": 0,
+      "confidence": 0.23,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PHL:2021Q4",
+      "label": 1,
+      "confidence": 0.68,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PHL:2022Q3",
+      "label": 1,
+      "confidence": 0.73,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PHL:2023Q1",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PHL:2024Q2",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PRT:1995Q1",
+      "label": 0,
+      "confidence": 0.09,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PRT:1995Q3",
+      "label": 0,
+      "confidence": 0.09,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PRT:1995Q4",
+      "label": 0,
+      "confidence": 0.09,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PRT:1997Q1",
+      "label": 0,
+      "confidence": 0.27,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PRT:1998Q2",
+      "label": null,
+      "confidence": 0.35,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PRT:1998Q4",
+      "label": null,
+      "confidence": 0.35,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PRT:2002Q1",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PRT:2004Q4",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PRT:2006Q1",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PRT:2006Q2",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PRT:2007Q2",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PRT:2009Q4",
+      "label": 1,
+      "confidence": 0.85,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PRT:2011Q1",
+      "label": null,
+      "confidence": 0.42,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PRT:2011Q3",
+      "label": null,
+      "confidence": 0.42,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "PRT:2011Q4",
+      "label": null,
+      "confidence": 0.42,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "PRT:2013Q1",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "PRT:2016Q1",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "PRT:2016Q2",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "PRT:2016Q4",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "PRT:2017Q3",
+      "label": 0,
+      "confidence": 0.08,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "PRT:2017Q4",
+      "label": 0,
+      "confidence": 0.08,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "PRT:2018Q1",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "PRT:2018Q2",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "PRT:2018Q3",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "PRT:2019Q2",
+      "label": 0,
+      "confidence": 0.03,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PRT:2022Q1",
+      "label": 0,
+      "confidence": 0.18,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PRT:2022Q2",
+      "label": 0,
+      "confidence": 0.18,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PRT:2023Q2",
+      "label": 0,
+      "confidence": 0.08,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PRT:2026Q2",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "PRY:2012Q2",
+      "label": 0,
+      "confidence": 0.25,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "PRY:2012Q4",
+      "label": 0,
+      "confidence": 0.25,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "PRY:2013Q2",
+      "label": 0,
+      "confidence": 0.18,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "PRY:2014Q3",
+      "label": null,
+      "confidence": 0.48,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "PRY:2017Q1",
+      "label": 0,
+      "confidence": 0.15,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "PRY:2019Q3",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "PRY:2019Q4",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "PRY:2023Q1",
+      "label": 0,
+      "confidence": 0.25,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "PRY:2024Q3",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "PRY:2024Q4",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "PRY:2025Q1",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "PRY:2025Q2",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "PRY:2025Q3",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "PRY:2025Q4",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "PRY:2026Q1",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "PRY:2026Q2",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ROU:1998Q1",
+      "label": 1,
+      "confidence": 0.9,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "ROU:1999Q1",
+      "label": 1,
+      "confidence": 0.92,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "ROU:1999Q2",
+      "label": 1,
+      "confidence": 0.92,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "ROU:1999Q3",
+      "label": 1,
+      "confidence": 0.92,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "ROU:2000Q4",
+      "label": 1,
+      "confidence": 0.85,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "ROU:2002Q1",
+      "label": 1,
+      "confidence": 0.78,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "ROU:2003Q1",
+      "label": 1,
+      "confidence": 0.8,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "ROU:2003Q3",
+      "label": 1,
+      "confidence": 0.8,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "ROU:2004Q3",
+      "label": 1,
+      "confidence": 0.82,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "ROU:2004Q4",
+      "label": 1,
+      "confidence": 0.82,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "ROU:2005Q1",
+      "label": 1,
+      "confidence": 0.82,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "ROU:2005Q2",
+      "label": 1,
+      "confidence": 0.82,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "ROU:2005Q3",
+      "label": 1,
+      "confidence": 0.82,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "ROU:2005Q4",
+      "label": 1,
+      "confidence": 0.82,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "ROU:2006Q1",
+      "label": 1,
+      "confidence": 0.85,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "ROU:2006Q2",
+      "label": 1,
+      "confidence": 0.85,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "ROU:2006Q3",
+      "label": 1,
+      "confidence": 0.85,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "ROU:2007Q1",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "ROU:2008Q1",
+      "label": 1,
+      "confidence": 0.85,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "ROU:2008Q3",
+      "label": 1,
+      "confidence": 0.85,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "ROU:2008Q4",
+      "label": 1,
+      "confidence": 0.85,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "ROU:2009Q1",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "ROU:2009Q2",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "ROU:2009Q3",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "ROU:2009Q4",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "ROU:2010Q1",
+      "label": 1,
+      "confidence": 0.68,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "ROU:2010Q2",
+      "label": 1,
+      "confidence": 0.68,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "ROU:2010Q3",
+      "label": 1,
+      "confidence": 0.68,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "ROU:2010Q4",
+      "label": 1,
+      "confidence": 0.68,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "ROU:2011Q1",
+      "label": 0,
+      "confidence": 0.23,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "ROU:2011Q2",
+      "label": 0,
+      "confidence": 0.23,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "ROU:2011Q3",
+      "label": 0,
+      "confidence": 0.23,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ROU:2011Q4",
+      "label": 0,
+      "confidence": 0.23,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ROU:2012Q1",
+      "label": 0,
+      "confidence": 0.19,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ROU:2012Q2",
+      "label": 0,
+      "confidence": 0.19,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ROU:2012Q3",
+      "label": 0,
+      "confidence": 0.19,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ROU:2012Q4",
+      "label": 0,
+      "confidence": 0.19,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ROU:2013Q1",
+      "label": 0,
+      "confidence": 0.2,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ROU:2013Q2",
+      "label": 0,
+      "confidence": 0.2,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ROU:2013Q3",
+      "label": 0,
+      "confidence": 0.2,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ROU:2013Q4",
+      "label": 0,
+      "confidence": 0.2,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ROU:2014Q1",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ROU:2014Q4",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "ROU:2016Q3",
+      "label": null,
+      "confidence": 0.4,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "ROU:2018Q4",
+      "label": 0,
+      "confidence": 0.15,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "ROU:2021Q4",
+      "label": 1,
+      "confidence": 0.65,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "ROU:2022Q2",
+      "label": 1,
+      "confidence": 0.82,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "ROU:2023Q4",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "ROU:2024Q1",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "ROU:2025Q1",
+      "label": 1,
+      "confidence": 0.68,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "ROU:2025Q3",
+      "label": 1,
+      "confidence": 0.68,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "ROU:2025Q4",
+      "label": 1,
+      "confidence": 0.68,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "SRB:2013Q2",
+      "label": 1,
+      "confidence": 0.78,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "SRB:2014Q4",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "SRB:2015Q2",
+      "label": 0,
+      "confidence": 0.25,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "SRB:2015Q3",
+      "label": 0,
+      "confidence": 0.25,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "SRB:2017Q3",
+      "label": 1,
+      "confidence": 0.65,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "SRB:2017Q4",
+      "label": 1,
+      "confidence": 0.65,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "SRB:2018Q4",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "SRB:2020Q1",
+      "label": 0,
+      "confidence": 0.2,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "SRB:2020Q4",
+      "label": 0,
+      "confidence": 0.2,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "SRB:2021Q3",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "SRB:2023Q1",
+      "label": 1,
+      "confidence": 0.68,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "SRB:2023Q3",
+      "label": 1,
+      "confidence": 0.68,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "SRB:2024Q1",
+      "label": null,
+      "confidence": 0.42,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "SRB:2024Q2",
+      "label": null,
+      "confidence": 0.42,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "SRB:2024Q3",
+      "label": null,
+      "confidence": 0.42,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "SRB:2024Q4",
+      "label": null,
+      "confidence": 0.42,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "SRB:2025Q1",
+      "label": 0,
+      "confidence": 0.22,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "SRB:2025Q2",
+      "label": 0,
+      "confidence": 0.22,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "SRB:2025Q3",
+      "label": 0,
+      "confidence": 0.22,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "SRB:2025Q4",
+      "label": 0,
+      "confidence": 0.22,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "SRB:2026Q1",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "SRB:2026Q2",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "TTO:2009Q3",
+      "label": 0,
+      "confidence": 0.15,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "TTO:2011Q2",
+      "label": 0,
+      "confidence": 0.07,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "TTO:2012Q1",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "TTO:2013Q2",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "TTO:2013Q4",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "TTO:2016Q2",
+      "label": 0,
+      "confidence": 0.08,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "TTO:2016Q4",
+      "label": 0,
+      "confidence": 0.08,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "TTO:2018Q2",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "TTO:2019Q1",
+      "label": 0,
+      "confidence": 0.08,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "TTO:2019Q2",
+      "label": 0,
+      "confidence": 0.08,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "TTO:2019Q3",
+      "label": 0,
+      "confidence": 0.08,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "TTO:2019Q4",
+      "label": 0,
+      "confidence": 0.08,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "TTO:2020Q1",
+      "label": null,
+      "confidence": 0.35,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "TTO:2020Q2",
+      "label": null,
+      "confidence": 0.35,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "TTO:2020Q3",
+      "label": null,
+      "confidence": 0.35,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "TTO:2020Q4",
+      "label": null,
+      "confidence": 0.35,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "TTO:2021Q1",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "TTO:2021Q2",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "TTO:2021Q3",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "TTO:2021Q4",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "TTO:2022Q1",
+      "label": 0,
+      "confidence": 0.07,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "TTO:2022Q2",
+      "label": 0,
+      "confidence": 0.07,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "TTO:2022Q3",
+      "label": 0,
+      "confidence": 0.07,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "TTO:2022Q4",
+      "label": 0,
+      "confidence": 0.07,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "TTO:2023Q1",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "TTO:2023Q2",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "TTO:2023Q3",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "TTO:2023Q4",
+      "label": 0,
+      "confidence": 0.1,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "TTO:2024Q1",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "TTO:2024Q2",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "TTO:2024Q3",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "TTO:2024Q4",
+      "label": 0,
+      "confidence": 0.05,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "TTO:2025Q1",
+      "label": 0,
+      "confidence": 0.08,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "TTO:2025Q2",
+      "label": 0,
+      "confidence": 0.08,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "TTO:2025Q3",
+      "label": 0,
+      "confidence": 0.08,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "TTO:2025Q4",
+      "label": 0,
+      "confidence": 0.08,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "TTO:2026Q1",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "TTO:2026Q2",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "TUR:1996Q1",
+      "label": 1,
+      "confidence": 0.95,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:1996Q3",
+      "label": 1,
+      "confidence": 0.95,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:1997Q3",
+      "label": 1,
+      "confidence": 0.94,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:1998Q2",
+      "label": 1,
+      "confidence": 0.93,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:2001Q3",
+      "label": 1,
+      "confidence": 0.92,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:2002Q1",
+      "label": 1,
+      "confidence": 0.9,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:2004Q1",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:2004Q2",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:2004Q3",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:2006Q1",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:2006Q2",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:2007Q3",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:2007Q4",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:2008Q4",
+      "label": 1,
+      "confidence": 0.85,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:2009Q4",
+      "label": null,
+      "confidence": 0.4,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:2010Q2",
+      "label": 1,
+      "confidence": 0.8,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:2010Q3",
+      "label": 1,
+      "confidence": 0.8,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:2010Q4",
+      "label": 1,
+      "confidence": 0.8,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:2011Q1",
+      "label": 1,
+      "confidence": 0.8,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:2012Q1",
+      "label": 1,
+      "confidence": 0.77,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:2013Q2",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:2013Q3",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:2013Q4",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:2014Q1",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:2014Q2",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "TUR:2014Q3",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "TUR:2014Q4",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "TUR:2015Q1",
+      "label": 0,
+      "confidence": 0.3,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "TUR:2015Q2",
+      "label": 0,
+      "confidence": 0.3,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "TUR:2015Q3",
+      "label": 0,
+      "confidence": 0.3,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "TUR:2015Q4",
+      "label": 0,
+      "confidence": 0.3,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "TUR:2016Q1",
+      "label": null,
+      "confidence": 0.48,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "TUR:2016Q2",
+      "label": null,
+      "confidence": 0.48,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "TUR:2016Q3",
+      "label": null,
+      "confidence": 0.48,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:2016Q4",
+      "label": null,
+      "confidence": 0.48,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:2017Q1",
+      "label": 1,
+      "confidence": 0.76,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:2017Q2",
+      "label": 1,
+      "confidence": 0.76,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:2017Q3",
+      "label": 1,
+      "confidence": 0.76,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:2017Q4",
+      "label": 1,
+      "confidence": 0.76,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:2018Q1",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:2018Q2",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:2022Q2",
+      "label": 1,
+      "confidence": 0.95,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:2023Q1",
+      "label": 1,
+      "confidence": 0.95,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:2024Q1",
+      "label": 1,
+      "confidence": 0.92,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:2024Q4",
+      "label": 1,
+      "confidence": 0.92,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:2025Q1",
+      "label": 1,
+      "confidence": 0.83,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:2025Q3",
+      "label": 1,
+      "confidence": 0.83,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "TUR:2025Q4",
+      "label": 1,
+      "confidence": 0.83,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "URY:1997Q1",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "URY:1997Q2",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "URY:1997Q4",
+      "label": 1,
+      "confidence": 0.75,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "URY:2000Q3",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "URY:2001Q3",
+      "label": 0,
+      "confidence": 0.18,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "URY:2002Q1",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "URY:2002Q2",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "URY:2002Q3",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "URY:2002Q4",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "URY:2003Q1",
+      "label": 1,
+      "confidence": 0.78,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "URY:2003Q2",
+      "label": 1,
+      "confidence": 0.78,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "URY:2003Q3",
+      "label": 1,
+      "confidence": 0.78,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "URY:2003Q4",
+      "label": 1,
+      "confidence": 0.78,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "URY:2005Q1",
+      "label": 0,
+      "confidence": 0.18,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "URY:2006Q1",
+      "label": 0,
+      "confidence": 0.3,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "URY:2006Q2",
+      "label": 0,
+      "confidence": 0.3,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "URY:2007Q2",
+      "label": null,
+      "confidence": 0.48,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "URY:2007Q4",
+      "label": null,
+      "confidence": 0.48,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "URY:2009Q3",
+      "label": 0,
+      "confidence": 0.25,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "URY:2010Q3",
+      "label": 0,
+      "confidence": 0.18,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "URY:2010Q4",
+      "label": 0,
+      "confidence": 0.18,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "URY:2012Q2",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "URY:2012Q3",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "URY:2012Q4",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "URY:2013Q1",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "URY:2013Q2",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "URY:2013Q3",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "URY:2013Q4",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "URY:2014Q1",
+      "label": 1,
+      "confidence": 0.68,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "URY:2014Q2",
+      "label": 1,
+      "confidence": 0.68,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "URY:2014Q3",
+      "label": 1,
+      "confidence": 0.68,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "URY:2014Q4",
+      "label": 1,
+      "confidence": 0.68,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "URY:2015Q1",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "URY:2015Q2",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "URY:2015Q3",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "URY:2015Q4",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "URY:2016Q1",
+      "label": 1,
+      "confidence": 0.62,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "URY:2016Q2",
+      "label": 1,
+      "confidence": 0.62,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "URY:2016Q3",
+      "label": 1,
+      "confidence": 0.62,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "URY:2016Q4",
+      "label": 1,
+      "confidence": 0.62,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "URY:2017Q1",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "URY:2017Q2",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "URY:2017Q3",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "URY:2017Q4",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "URY:2018Q1",
+      "label": 0,
+      "confidence": 0.18,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "URY:2020Q1",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "URY:2020Q4",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "URY:2022Q2",
+      "label": null,
+      "confidence": 0.55,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "URY:2024Q1",
+      "label": 0,
+      "confidence": 0.15,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "URY:2026Q2",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:1995Q1",
+      "label": 1,
+      "confidence": 0.74,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "ZAF:1995Q2",
+      "label": 1,
+      "confidence": 0.74,
+      "agreement": "split",
+      "reference": null
+    },
+    {
+      "item_id": "ZAF:1995Q3",
+      "label": 1,
+      "confidence": 0.74,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:1995Q4",
+      "label": 1,
+      "confidence": 0.74,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:1996Q1",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:1996Q2",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:1996Q3",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:1996Q4",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:1997Q1",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:1997Q2",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:1997Q3",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:1997Q4",
+      "label": 1,
+      "confidence": 0.72,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:1998Q1",
+      "label": 1,
+      "confidence": 0.65,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:1998Q2",
+      "label": 1,
+      "confidence": 0.65,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:1998Q3",
+      "label": 1,
+      "confidence": 0.65,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:1998Q4",
+      "label": 1,
+      "confidence": 0.65,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:1999Q1",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:1999Q2",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:1999Q3",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:1999Q4",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:2000Q1",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:2000Q2",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:2000Q3",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:2000Q4",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:2001Q1",
+      "label": null,
+      "confidence": 0.55,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:2001Q2",
+      "label": null,
+      "confidence": 0.55,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:2001Q3",
+      "label": null,
+      "confidence": 0.55,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:2001Q4",
+      "label": null,
+      "confidence": 0.55,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:2002Q1",
+      "label": 1,
+      "confidence": 0.67,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:2002Q2",
+      "label": 1,
+      "confidence": 0.67,
+      "agreement": "majority",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:2002Q4",
+      "label": 1,
+      "confidence": 0.67,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:2003Q3",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:2004Q2",
+      "label": 1,
+      "confidence": 0.65,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:2005Q1",
+      "label": 0,
+      "confidence": 0.2,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:2005Q3",
+      "label": 0,
+      "confidence": 0.2,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:2007Q1",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:2009Q3",
+      "label": null,
+      "confidence": 0.55,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:2011Q4",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:2013Q3",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:2013Q4",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:2014Q3",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:2014Q4",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:2015Q4",
+      "label": 1,
+      "confidence": 0.7,
+      "agreement": "unanimous",
+      "reference": 0
+    },
+    {
+      "item_id": "ZAF:2017Q2",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "ZAF:2017Q3",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "ZAF:2017Q4",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "ZAF:2018Q1",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "ZAF:2018Q2",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "ZAF:2018Q3",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "ZAF:2018Q4",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "ZAF:2019Q1",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "ZAF:2019Q2",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "ZAF:2019Q3",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "ZAF:2019Q4",
+      "label": null,
+      "confidence": 0.45,
+      "agreement": "majority",
+      "reference": 1
+    },
+    {
+      "item_id": "ZAF:2020Q3",
+      "label": 0,
+      "confidence": 0.18,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "ZAF:2021Q4",
+      "label": 0,
+      "confidence": 0.25,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "ZAF:2023Q2",
+      "label": 0,
+      "confidence": 0.33,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "ZAF:2024Q2",
+      "label": 0,
+      "confidence": 0.28,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "ZAF:2025Q4",
+      "label": 0,
+      "confidence": 0.18,
+      "agreement": "unanimous",
+      "reference": 1
+    },
+    {
+      "item_id": "ZAF:2026Q1",
+      "label": null,
+      "confidence": 0.5,
+      "agreement": "unanimous",
+      "reference": 1
+    }
+  ],
+  "run": {
+    "called": 481,
+    "from_cache": 541,
+    "errors": 0,
+    "unparseable": 0,
+    "abstained": 194,
+    "seconds": 472.2
+  }
+}

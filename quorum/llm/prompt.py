@@ -32,8 +32,18 @@ from quorum.schema import Item, Prediction
 class PromptStyle(str, Enum):
     """How much the model is told."""
 
-    BLIND = "blind"    # fundamentals only; the country is not named
-    NAMED = "named"    # the country is named: a deliberate contamination probe
+    BLIND = "blind"    # fundamentals only; neither the country nor the period
+    NAMED = "named"    # country AND period: the full contamination probe
+    NAMED_UNDATED = "named_undated"   # the country, but NOT when
+
+    # NAMED_UNDATED exists to split a confound the other two cannot. A model
+    # told the country and the quarter can recall what happened next, so on a
+    # forward-looking target its score is a hindsight ceiling rather than a
+    # forecast. Told the country alone it still has real knowledge of that
+    # sovereign's institutions and politics, which is legitimate judgement, but
+    # it no longer knows which episode it is looking at. NAMED minus
+    # NAMED_UNDATED is therefore the value of knowing WHEN, which on a forward
+    # target is very nearly pure memorisation.
 
 
 SYSTEM = (
@@ -75,11 +85,11 @@ def build_prompt(item: Item, style: PromptStyle = PromptStyle.BLIND) -> str:
         f"  CPI inflation            : {_fmt(inp.get('inflation_pct'), 'percent')}",
         f"  Current account balance  : {_fmt(inp.get('current_account_pct_gdp'), 'percent of GDP')}",
     ]
-    if style is PromptStyle.NAMED:
+    if style in (PromptStyle.NAMED, PromptStyle.NAMED_UNDATED):
         country = item.metadata.get("country", item.item_id)
-        quarter = item.metadata.get("quarter")
         head = f"Sovereign: {country}"
-        if quarter:
+        quarter = item.metadata.get("quarter")
+        if quarter and style is PromptStyle.NAMED:
             head += f"\nAs at: {quarter}"
         head += "\n\nMacroeconomic fundamentals:"
     else:

@@ -65,7 +65,7 @@ def parse_args(argv=None):
     p.add_argument("--provider", default="fake",
                    choices=["anthropic", "openai", "gemini", "fake"])
     p.add_argument("--model", default=None)
-    p.add_argument("--style", default="blind", choices=["blind", "named"])
+    p.add_argument("--style", default="blind", choices=["blind", "named", "named_undated"])
     p.add_argument("--unanimous", type=int, default=500,
                    help="How many unanimous items to sample. 0 scores contested only; "
                         "a number at or above the panel's count scores all of them.")
@@ -94,9 +94,12 @@ def main(argv=None) -> int:
         print(f"To score     : {len(work):,} items" + (f"  (--limit {args.limit})" if args.limit else ""))
         print(f"No WDI figure: {no_data:,} items will show 'not reported' for GDP per capita")
         print(f"Provider     : {args.provider}   model: {args.model or 'provider default'}")
-        print(f"Style        : {style.value}"
-              + ("   (identity and period WITHHELD)" if style is PromptStyle.BLIND
-                 else "   (country and quarter SUPPLIED: contamination probe)"))
+        blurb = {
+            PromptStyle.BLIND: "   (identity and period WITHHELD)",
+            PromptStyle.NAMED: "   (country and quarter SUPPLIED: full contamination probe)",
+            PromptStyle.NAMED_UNDATED: "   (country supplied, PERIOD WITHHELD: isolates knowing WHEN)",
+        }[style]
+        print(f"Style        : {style.value}{blurb}")
         print(f"Calls        : {len(work):,}   seed {args.seed}   cache {args.cache_dir or 'disabled'}")
         print("\n" + "-" * 74 + "\nONE PROMPT AS THE MODEL WILL RECEIVE IT\n" + "-" * 74)
         print(build_prompt(work[0], style))

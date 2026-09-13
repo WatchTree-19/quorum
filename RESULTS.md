@@ -93,3 +93,77 @@ came with it.
 
 That is a narrower claim than the one the snapshot appeared to support. It is
 also the one that survived being tested.
+
+---
+
+# Forward scoring: the contested stratum against a realised outcome
+
+Added 13 September 2026, after the runs above.
+
+## Why
+
+Everything above scores contested items against the contemporaneous majority of
+agencies. That is consensus tracking. Agreeing with two agencies out of three is
+not being right, because on a contested item there is no external truth to be
+right about, and this repository has conceded that from the start.
+
+A panel that runs through time contains one. A disagreement spell ends: when the
+agencies split over whether a sovereign is investment grade, one side is
+eventually vindicated because the others move to meet it. The verdict they
+converge on is a realised outcome, not a vote. The history panel carries 47
+spells, 39 closing inside the data, over 424 contested country-quarters.
+
+## Two corrections made whilst building this, both worth recording
+
+FIRST. The design anticipated that a model told the country AND the quarter
+could simply recall how that episode ended, making its score a hindsight
+ceiling. A third condition was built to test it, NAMED_UNDATED, which supplies
+the country and withholds the period. Knowing the date turns out to be worth
+almost nothing: +6.3 points over the undated condition with an interval that
+crosses zero, and +0.0 points on the full item set. The concern was real enough
+to test and did not survive testing.
+
+SECOND, and more embarrassing. The obvious trivial baseline is "always say
+whatever this country usually ends up as", since rating states are persistent.
+Computed over the same items it was scored on, that rule reached 86.8 percent
+and appeared to destroy the metric. It was leaking: the modal verdict was fitted
+on the items being scored. Out of fold, taking each spell's prior from that
+country's OTHER spells, the same rule collapses to 44.8 percent, because
+consecutive spells tend to settle in opposite directions. The rule is
+anti-predictive, and the metric survives. The in-sample figure is recorded here
+because a benchmark that hides its own near-misses is not worth much.
+
+## The result
+
+On the 252 contested items sitting in countries with at least two resolved
+spells, which is where an out-of-fold baseline can compete at all:
+
+                                      accuracy   clustered 95% CI
+    country base rate, out-of-fold      44.8%    [19.1, 69.6]
+    GPT-4.1 blind                       46.9%    [35.1, 56.9]
+    GPT-4.1 named, no date              64.3%    [50.5, 79.6]
+    GPT-4.1 named and dated             71.9%    [61.4, 83.1]
+    the agencies' own majority          77.8%    [61.4, 90.9]
+
+Intervals bootstrap over countries, 4,000 draws, for the reason set out above.
+
+Knowing the country is worth +10.9 points over blind, with the lower bound of
+the interval sitting on zero, so it is marginal rather than established. Knowing
+the date on top of that is worth +6.3 and is not established.
+
+## What it says
+
+On a forecasting task with a realised outcome, a frontier model told which
+country it is looking at reaches roughly two thirds. That is well clear of a
+trivial heuristic and well short of the humans whose disagreement created the
+question in the first place. The agencies' own lagging, one-at-a-time consensus
+beats every model condition tested.
+
+One caveat on that comparison: the majority is scored on 198 items against the
+models' 231 to 238, because it has no verdict on evenly split items. Treat 77.8
+percent as indicative rather than exact.
+
+An earlier reading of the full 424-item set had the named condition at 67.5
+percent against the majority's 61.0 percent, which looked like the model
+beating the agencies. It was an artefact of scoring the two on different item
+sets. On the matched subset the ordering reverses.

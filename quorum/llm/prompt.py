@@ -77,8 +77,16 @@ def build_prompt(item: Item, style: PromptStyle = PromptStyle.BLIND) -> str:
     ]
     if style is PromptStyle.NAMED:
         country = item.metadata.get("country", item.item_id)
-        head = f"Sovereign: {country}\n\nMacroeconomic fundamentals:"
+        quarter = item.metadata.get("quarter")
+        head = f"Sovereign: {country}"
+        if quarter:
+            head += f"\nAs at: {quarter}"
+        head += "\n\nMacroeconomic fundamentals:"
     else:
+        # The period is withheld along with the identity. On the history panel
+        # a quarter plus a distinctive inflation print would name the country
+        # to anyone who knows the era, which is the leak this style exists to
+        # prevent.
         head = ("Sovereign: identity withheld\n\n"
                 "Macroeconomic fundamentals:")
     return _INSTRUCTION.format(body=head + "\n" + "\n".join(lines))

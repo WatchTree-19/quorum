@@ -17,12 +17,41 @@ Raw inputs are per-country files of dated rating actions
 
 from __future__ import annotations
 
+import json
+from functools import lru_cache
 from pathlib import Path
 
 from quorum.adapters.sovereign_ratings import is_speculative
 from quorum.schema import Item
 
 RATER_IDS = ("SP", "MOODYS", "FITCH")
+FUNDAMENTALS = Path(__file__).resolve().parents[2] / "data" / "wdi_history.json"
+
+
+@lru_cache(maxsize=1)
+def _fundamentals(path: str) -> dict:
+    """Annual WDI series keyed {iso3: {indicator: {year: value}}}."""
+    f = Path(path)
+    if not f.exists():
+        return {}
+    return json.loads(f.read_text(encoding="utf-8"))
+
+
+def _inputs_for(iso3: str, quarter: str, path: str) -> dict:
+    """Macro fundamentals for a country-quarter, taken from its calendar year.
+
+    Without these a BLIND prompt on this panel would carry no information at
+    all: the item would be an anonymous country in an unnamed quarter. See
+    data/SOURCES.md for the coverage and for why a quarter takes its year's
+    annual value.
+    """
+    series = _fundamentals(path).get(iso3, {})
+    year = quarter[:4]
+    return {
+        "gdp_pc_usd": series.get("gdp_pc_ppp", {}).get(year),
+        "inflation_pct": series.get("inflation", {}).get(year),
+        "current_account_pct_gdp": series.get("current_acct", {}).get(year),
+    }
 _AGENCY_KEY = {"S&P": "SP", "MOODY'S": "MOODYS", "MOODYS": "MOODYS", "FITCH": "FITCH"}
 
 
@@ -62,8 +91,17 @@ def load_items(
     raw_dir: str | Path,
     start: str = "1995-01-01",
     end: str = "2026-06-30",
+    fundamentals: str | Path | None = None,
 ) -> list[Item]:
-    """Build country-quarter items from the per-country action files."""
+    """Build country-quarter items from the per-country action files.
+
+    Args:
+        raw_dir: Directory of per-country dated rating actions.
+        start, end: Panel bounds.
+        fundamentals: WDI series JSON. Defaults to data/wdi_history.json.
+            Items carry the macro inputs so the panel can be run blind.
+    """
+    fpath = str(fundamentals) if fundamentals is not None else str(FUNDAMENTALS)
     raw_dir = Path(raw_dir)
     all_q = _quarters(start, end)
     items: list[Item] = []
@@ -90,10 +128,11 @@ def load_items(
                 Item(
                     item_id=f"{iso3}:{q}",
                     task="sovereign_investment_grade_history",
-                    inputs={"iso3": iso3, "quarter": q},
+                    inputs=_inputs_for(iso3, q, fpath),
                     labels=labels,
                     rater_ids=RATER_IDS,
-                    metadata={"group": iso3, "quarter": q},
+                    metadata={"group": iso3, "quarter": q, "country": iso3,
+                              "iso3": iso3},
                 )
             )
     return items

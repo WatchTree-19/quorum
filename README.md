@@ -22,6 +22,8 @@ split. See WHITEPAPER.md for the full design and the pilot results.
     analysis_crossings.py   boundary crossings and disagreement spells, 1995-2026
     quorum/llm/             the LLM harness: prompts, providers, cached runner
     run_llm_sovereign.py    score a frontier model on the public sovereign panel
+    run_llm_history.py      the same, stratified over the history panel
+    compare_runs.py         paired (McNemar) comparison of two runs
 
 ## Run
 
@@ -77,6 +79,41 @@ Failed calls and unparseable responses are recorded as abstentions and counted
 in the run statistics, which print beneath the scorecard. That matters because
 Quorum never scores an abstention as an error, so a broken run would otherwise
 read as a thoughtful one.
+
+### The history panel, which is where the headline number lives
+
+The snapshot carries 8 contested sovereigns out of 124, which is too few to put
+a usable interval around. The history panel carries 522 contested items out of
+2,697 country-quarters, and contested accuracy is the headline metric, so this
+is the run that can support a published figure.
+
+    python run_llm_history.py --provider fake --dry-run
+    python run_llm_history.py --provider openai --out hist_gpt_blind.json
+    python run_llm_history.py --provider openai --style named --out hist_gpt_named.json
+
+By default it scores every contested item plus 500 sampled unanimous ones, so
+roughly a third of the calls buy the whole of the headline metric. Contested
+accuracy, the reliability gap and rater affinity are within-stratum and are
+unaffected by that sampling; overall accuracy is not, and the run says so.
+Ground-truth reliability is reported for the panel as well as for the
+stratified set, because oversampling the contested stratum drags alpha from
+0.695 down to 0.224 by construction and the stratified figure on its own would
+misdescribe the benchmark.
+
+Items on this panel carry World Bank WDI fundamentals (`data/wdi_history.json`,
+provenance in `data/SOURCES.md`) so that the blind condition is possible at all.
+Blind withholds the quarter as well as the country here, since a period plus a
+distinctive inflation print names a country to anyone who knows the era.
+
+### Comparing two runs
+
+    python compare_runs.py hist_gpt_blind.json hist_gpt_named.json
+
+Blind and named score the same items, so the comparison is paired and
+`compare_runs.py` uses McNemar's exact test on the discordant pairs rather than
+treating the runs as two independent samples. It reports Wilson intervals per
+stratum, abstention rates, split-item behaviour and affinity side by side, and
+it says out loud when a null result is merely underpowered.
 
 ## Author and citation
 

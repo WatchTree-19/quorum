@@ -89,6 +89,7 @@ def main(argv: list[str] | None = None) -> int:
     print(stats.render())
 
     if args.out:
+        by_id = {it.item_id: it for it in work}
         payload = {
             "model": label,
             "provider": provider.name,
@@ -113,6 +114,12 @@ def main(argv: list[str] | None = None) -> int:
                 a.rater_id: {"n": a.n, "agreement": a.agreement}
                 for a in rater_affinity(work, preds)
             },
+            "predictions": [
+                {"item_id": p.item_id, "label": p.label, "confidence": p.confidence,
+                 "agreement": by_id[p.item_id].agreement,
+                 "reference": by_id[p.item_id].majority_label}
+                for p in preds
+            ],
             "run": {
                 "called": stats.called, "from_cache": stats.from_cache,
                 "errors": stats.errors, "unparseable": stats.unparseable,

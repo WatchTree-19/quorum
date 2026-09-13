@@ -23,7 +23,9 @@ split. See WHITEPAPER.md for the full design and the pilot results.
     quorum/llm/             the LLM harness: prompts, providers, cached runner
     run_llm_sovereign.py    score a frontier model on the public sovereign panel
     run_llm_history.py      the same, stratified over the history panel
+    quorum/forward.py       scoring against what the raters settled on
     compare_runs.py         paired (McNemar) comparison of two runs
+    forward_analysis.py     rescore existing runs against realised outcomes
 
 ## Run
 
@@ -114,6 +116,37 @@ Blind and named score the same items, so the comparison is paired and
 treating the runs as two independent samples. It reports Wilson intervals per
 stratum, abstention rates, split-item behaviour and affinity side by side, and
 it says out loud when a null result is merely underpowered.
+
+### Forward scoring, which is how the headline metric earns its keep
+
+Accuracy on contested items, measured against the contemporaneous majority of
+raters, is consensus tracking. Agreeing with two agencies out of three is not
+being right, because on a contested item there is no external truth to be right
+about. This repository has said so from the start.
+
+On a panel that runs through time there is one. A disagreement spell ends: when
+the agencies split over whether a sovereign is investment grade, one side is
+eventually vindicated because the others move to meet it. That settled verdict
+is a realised outcome rather than a vote. The history panel carries 47 spells,
+39 of which close inside the data, covering 424 contested country-quarters.
+
+    python forward_analysis.py hist_gpt_blind.json hist_gpt_named.json
+
+The contemporaneous majority is the baseline, and a real one at 61.0 percent:
+it lags during a transition because agencies move one at a time, but it is not
+a coin flip and a model that only tracks consensus cannot beat it.
+
+Two conditions are not enough here. A model told the country AND the quarter
+can recall how that episode ended, so on a forward-looking target its score is
+a hindsight ceiling rather than a forecast. `PromptStyle.NAMED_UNDATED` supplies
+the country and withholds the period:
+
+    python run_llm_history.py --provider openai --style named_undated --out hist_gpt_undated.json
+
+Knowing which country this is can legitimately improve a forecast from its
+fundamentals. Knowing which quarter it is cannot. So NAMED minus NAMED_UNDATED,
+on a forward target, is very nearly pure memorisation, and it is the sharpest
+contamination probe in the repository.
 
 ## Author and citation
 

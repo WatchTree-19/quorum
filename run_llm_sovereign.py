@@ -36,7 +36,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     p.add_argument("--provider", default="fake",
                    choices=["anthropic", "openai", "gemini", "fake"])
     p.add_argument("--model", default=None, help="Override the provider's default model id.")
-    p.add_argument("--style", default="blind", choices=["blind", "named"],
+    p.add_argument("--style", default="blind", choices=["blind", "named", "named_undated"],
                    help="blind withholds the country name; named is the contamination probe.")
     p.add_argument("--limit", type=int, default=None, help="Score only the first N items.")
     p.add_argument("--sleep", type=float, default=0.0, help="Seconds between live calls.")
@@ -59,9 +59,12 @@ def main(argv: list[str] | None = None) -> int:
         print(f"Items      : {len(work):,} of {len(items):,} loaded"
               f"   contested: {len(contested):,}")
         print(f"Provider   : {args.provider}   model: {args.model or 'provider default'}")
-        print(f"Style      : {style.value}"
-              + ("   (country name WITHHELD)" if style is PromptStyle.BLIND
-                 else "   (country name SUPPLIED: contamination probe)"))
+        blurb = {
+            PromptStyle.BLIND: "   (country name WITHHELD)",
+            PromptStyle.NAMED: "   (country name SUPPLIED: contamination probe)",
+            PromptStyle.NAMED_UNDATED: "   (country name SUPPLIED; no period on this panel)",
+        }[style]
+        print(f"Style      : {style.value}{blurb}")
         print(f"Calls      : {len(work):,} one-shot completions, ~300 output tokens each")
         print(f"Cache      : {args.cache_dir or 'disabled'}"
               "   (a repeat run of an unchanged experiment costs nothing)")

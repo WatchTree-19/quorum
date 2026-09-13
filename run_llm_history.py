@@ -21,6 +21,16 @@ Stratification is reported in the output so the numbers cannot be read as if
 they came from the natural panel. Contested accuracy, the reliability gap and
 rater affinity are all computed WITHIN stratum and are unaffected by the
 sampling. Overall accuracy is not, and is labelled accordingly.
+
+ITEMS ON THIS PANEL ARE NOT INDEPENDENT, and any interval computed as though
+they were will be far too narrow. A country contributes up to 126 quarters and
+its rating moves rarely. Worse, on the BLIND condition the World Bank
+fundamentals are annual, so all four quarters of one country-year produce a
+byte-identical prompt: on the first real run, 1,022 items carried only 495
+distinct prompts and the 401 contested items only 123, which is why that run
+reported 541 cache hits on a panel that had never been scored. Use
+compare_runs.py, which resamples whole countries, and treat any naive
+binomial interval or McNemar p-value from this panel as optimistic.
 """
 
 from __future__ import annotations

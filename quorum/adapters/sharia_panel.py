@@ -3,7 +3,7 @@
 Four screening standards (AAOIFI, MSCI, DJIM, S&P) each render a verdict on the
 same firm-quarter. They are treated as four independent expert raters. This is a
 real financial task with genuinely contested ground truth: the standards
-disagree on roughly two firm-quarters in five.
+disagree on roughly one firm-quarter in three.
 
 Reads the raw fundamentals panel (ticker, q, debt, shares, price, mcap, assets)
 and computes each standard's verdict. The screens are the ones implemented in

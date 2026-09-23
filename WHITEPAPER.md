@@ -40,17 +40,17 @@ The gap, stated plainly: there is no benchmark anywhere that evaluates financial
 
 ## The pilot, run on real data
 
-The first task family is Shariah equity screening, chosen because it offers something rare: four codified, independent expert rulebooks (AAOIFI, MSCI, Dow Jones Islamic, S&P Shariah) rendering verdicts on the same firm-quarters, computable point-in-time from primary filings with no annotation budget. On a panel of 23,248 firm-quarters across 426 US firms (2010 to 2026), the four standards agree unanimously on only 61.0% of items; alpha across them is 0.588, beneath the conventional 0.667 reliability floor. The ground truth is genuinely contested, and Quorum publishes that fact as the first line of the scorecard.
+The first task family is Shariah equity screening, chosen because it offers something rare: four codified, independent expert rulebooks (AAOIFI, MSCI, Dow Jones Islamic, S&P Shariah) rendering verdicts on the same firm-quarters, computable point-in-time from primary filings with no annotation budget. On a panel of 21,998 firm-quarters across 424 US firms (2010 to 2026), the four standards agree unanimously on only 64.3% of items; alpha across them is 0.600, beneath the conventional 0.667 reliability floor. The ground truth is genuinely contested, and Quorum publishes that fact as the first line of the scorecard.
 
 Two out-of-fold baselines were then scored, differing only in what they are permitted to know. The informed baseline sees the four leverage ratios the rulebooks actually use; the generalist sees only conventional leverage and size, which is the honest analogue of a capable financial model that has not internalised the specific standards.
 
 | Baseline | Overall | Unanimous | Contested (headline) | Reliability gap | Confident commits on splits |
 |---|---|---|---|---|---|
-| Informed | 99.5% | 100.0% | 98.5% | +1.5% | 41.6% |
-| Generalist | 96.9% | 99.6% | 92.2% | +7.4% | 46.5% |
-| Generalist + abstention | 98.5% | 99.8% | 96.2% | +3.6% | 46.5%, abstains 29.2% |
+| Informed | 99.7% | 100.0% | 99.1% | +0.9% | 52.7% |
+| Generalist | 97.3% | 99.7% | 92.4% | +7.3% | 52.3% |
+| Generalist + abstention | 98.4% | 100.0% | 95.2% | +4.8% | 52.3%, abstains 28.8% |
 
-The instrument discriminates in the way the thesis requires. Domain knowledge shows up as a five-fold reduction in the reliability gap, not as a point of overall accuracy. Adding an abstention band halves the generalist's gap and produces refusals concentrated on the undecidable items. And both baselines commit confidently on roughly four in ten split items, which is a behaviour no existing benchmark can even see, and which is exactly what a compliance officer needs to know before delegating a contested call to a model.
+The instrument discriminates in the way the thesis requires. Domain knowledge shows up as an eight-fold reduction in the reliability gap, not as a point of overall accuracy. Adding an abstention band narrows the generalist's gap by a third and produces refusals concentrated on the undecidable items. And both baselines commit confidently on roughly half of split items, which is a behaviour no existing benchmark can even see, and which is exactly what a compliance officer needs to know before delegating a contested call to a model.
 
 ## The second pilot: split sovereign ratings, fully public data
 

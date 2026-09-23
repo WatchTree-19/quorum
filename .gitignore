@@ -4,3 +4,5 @@ __pycache__/
 contested_stock_months.csv
 llm_cache/
 llm_results/
+.venv/
+logs/

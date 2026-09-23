@@ -26,6 +26,7 @@ split. See WHITEPAPER.md for the full design and the pilot results.
     quorum/forward.py       scoring against what the raters settled on
     compare_runs.py         paired (McNemar) comparison of two runs
     forward_analysis.py     rescore existing runs against realised outcomes
+    quorum_eval/            the same benchmark as Inspect AI tasks
 
 ## Run
 
@@ -147,6 +148,38 @@ Knowing which country this is can legitimately improve a forecast from its
 fundamentals. Knowing which quarter it is cannot. So NAMED minus NAMED_UNDATED,
 on a forward target, is very nearly pure memorisation, and it is the sharpest
 contamination probe in the repository.
+
+## Running with Inspect AI
+
+The benchmark is also packaged as [Inspect AI](https://inspect.aisi.org.uk/)
+tasks, so any model Inspect can reach is scored with one command. From a clone:
+
+    uv sync
+    uv run inspect eval quorum_eval/quorum_eval.py@quorum_sovereign_history --model openai/gpt-4.1-mini
+    uv run inspect eval quorum_eval/quorum_eval.py@quorum_sovereign_history --model openai/gpt-4.1-mini -T style=named
+    uv run inspect eval quorum_eval/quorum_eval.py@quorum_sovereign --model openai/gpt-4.1-mini
+
+`quorum_sovereign_history` is the 27-country history panel with the same
+stratified design as the published runs: all 522 contested country-quarters
+and a seeded sample of 500 unanimous ones, 1,022 samples in all.
+`quorum_sovereign` is the 124-country snapshot. Both take `-T style=blind`
+(the default), `named` or `named_undated`, and the history task also takes
+`-T unanimous=<n>` and `-T seed=<n>`.
+
+The tasks import the prompt, the system message and the response parser from
+`quorum.llm`, so an Inspect run asks the model exactly what the original harness
+asked it and reads the answer the same way. A test replays GPT-4.1's recorded
+answers through the Inspect task and requires the published scorecard to come
+out, blind and named, figure for figure.
+
+Each run reports seven metrics: `contested_accuracy` (the headline),
+`unanimous_accuracy`, `reliability_gap`, `overall_accuracy`,
+`abstain_rate_unanimous`, `abstain_rate_contested` and `split_commit_rate`.
+Abstentions and verdicts on evenly split items are logged as NOANSWER with the
+reason in the score metadata, since neither is right or wrong. These are point
+estimates. Items on the history panel are not independent, so intervals should
+be bootstrapped over countries; every sample carries its country in the
+metadata, which is all compare_runs.py needs.
 
 ## Author and citation
 

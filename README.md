@@ -152,9 +152,11 @@ contamination probe in the repository.
 ## Running with Inspect AI
 
 The benchmark is also packaged as [Inspect AI](https://inspect.aisi.org.uk/)
-tasks, so any model Inspect can reach is scored with one command. From a clone:
+tasks, so any model Inspect can reach is scored with one command. Inspect loads
+each provider's client on demand, so install the one you need (`--extra openai`
+or `--extra anthropic`) and set its key, e.g. `OPENAI_API_KEY`. From a clone:
 
-    uv sync
+    uv sync --extra openai
     uv run inspect eval quorum_eval/quorum_eval.py@quorum_sovereign_history --model openai/gpt-4.1-mini
     uv run inspect eval quorum_eval/quorum_eval.py@quorum_sovereign_history --model openai/gpt-4.1-mini -T style=named
     uv run inspect eval quorum_eval/quorum_eval.py@quorum_sovereign --model openai/gpt-4.1-mini

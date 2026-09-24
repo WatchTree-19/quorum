@@ -18,6 +18,10 @@ dependencies = [
 [project.optional-dependencies]
 # The out-of-fold logistic baselines in baselines/ and the pilot scripts.
 baselines = ["scikit-learn>=1.3"]
+# Model provider clients for Inspect runs. Inspect loads these on demand, so
+# install the one for the provider you run against.
+openai = ["openai>=1.99"]
+anthropic = ["anthropic>=0.60"]
 
 [project.entry-points.inspect_ai]
 quorum_eval = "quorum_eval"

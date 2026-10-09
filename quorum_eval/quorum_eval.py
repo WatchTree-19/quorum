@@ -22,6 +22,8 @@ What the metrics mean, briefly (README.md has the full account):
                          offered in the prompt and is never scored as an error.
   split_commit_rate      on items where the agencies are evenly split there is no
                          right answer; this is how often the model answered anyway.
+  truncation_rate        how often the output cap ended a response before it gave
+                         a verdict. Kept apart from abstention, which is a choice.
 
 ITEMS ON THE HISTORY PANEL ARE NOT INDEPENDENT. A country contributes many
 quarters and, on the blind style, the four quarters of one year produce the same
@@ -62,8 +64,10 @@ DATA_DIR = Path(__file__).resolve().parents[1] / "data"
 HISTORY_RAW = DATA_DIR / "history_raw"
 SNAPSHOT_CSV = DATA_DIR / "sovereign_panel.csv"
 
-# The same settings the original harness sends to every provider.
-GENERATE_CONFIG = GenerateConfig(temperature=0.0, max_tokens=300)
+# Temperature 0, as in the original harness. The output cap is set for models that reason
+# before they answer: their reasoning is billed as output, and the harness's 300-token cap
+# cut them off before the verdict. A model that answers directly stops well short of it.
+GENERATE_CONFIG = GenerateConfig(temperature=0.0, max_tokens=4000)
 
 _VERDICT = {0: "investment_grade", 1: "speculative", None: "no_verdict"}
 
@@ -211,6 +215,16 @@ def split_commit_rate() -> Metric:
     return compute
 
 
+@metric
+def truncation_rate() -> Metric:
+    """Share of items on which the output cap ended the response before a verdict."""
+
+    def compute(scores: list[SampleScore]) -> float:
+        return _ratio(sum(1 for s in scores if _outcome(s) == "truncated"), len(scores))
+
+    return compute
+
+
 QUORUM_METRICS = [
     contested_accuracy(),
     unanimous_accuracy(),
@@ -219,6 +233,7 @@ QUORUM_METRICS = [
     abstain_rate_unanimous(),
     abstain_rate_contested(),
     split_commit_rate(),
+    truncation_rate(),
 ]
 
 
@@ -228,9 +243,10 @@ def quorum_scorer() -> Scorer:
 
     A verdict on an item with a majority is CORRECT or INCORRECT against that
     majority. An abstention, a response that does not follow the output
-    contract, and any verdict on an evenly split item are recorded as NOANSWER,
-    because in each case there is nothing to mark right or wrong; the metadata
-    says which of the three it was, and the metrics count them separately.
+    contract, a response the output cap cut off before its verdict, and any
+    verdict on an evenly split item are recorded as NOANSWER, because in each
+    case there is nothing to mark right or wrong; the metadata says which it
+    was, and the metrics count them separately.
     """
 
     async def score(state: TaskState, target: Target) -> Score:
@@ -245,6 +261,10 @@ def quorum_scorer() -> Scorer:
             "probability_speculative": prediction.confidence,
         }
 
+        if prediction.label is None and state.output is not None and state.output.stop_reason == "max_tokens":
+            metadata["outcome"] = "truncated"
+            return Score(value=NOANSWER, answer=answer, metadata=metadata,
+                         explanation="The output cap ended the response before it gave a verdict.")
         if prediction.label is None:
             metadata["outcome"] = "abstained"
             return Score(value=NOANSWER, answer=answer, metadata=metadata,
@@ -277,7 +297,7 @@ def _task(dataset: MemoryDataset) -> Task:
         solver=[system_message(SYSTEM), generate()],
         scorer=quorum_scorer(),
         config=GENERATE_CONFIG,
-        version="1.0.0",
+        version="1.1.0",
     )
 
 

@@ -129,6 +129,31 @@ def test_quorum_scorer_outcomes(history_items):
     assert metrics["split_commit_rate"] == 1.0
 
 
+def test_a_response_cut_off_by_the_output_cap_is_truncation_not_abstention(history_items):
+    """A model that reasons before answering can hit the cap with no verdict yet."""
+    unanimous = next(it for it in history_items if it.agreement == "unanimous")
+    from inspect_ai import Task
+    from inspect_ai.dataset import MemoryDataset
+    from inspect_ai.solver import generate
+
+    samples = [item_to_sample(unanimous, PromptStyle.BLIND), item_to_sample(unanimous, PromptStyle.BLIND)]
+    samples[1].id = "abstains"
+    task = Task(dataset=MemoryDataset(samples), solver=generate(), scorer=quorum_scorer())
+    cut = ModelOutput.from_content("mockllm/model", "", stop_reason="max_tokens")
+    model = get_model("mockllm/model", custom_outputs=[cut, ModelOutput.from_content("mockllm/model", _answer(None))])
+    (log,) = inspect_eval(task, model=model, max_samples=1, display="none", log_dir=LOG_DIR)
+
+    outcomes = {s.id: s.scores["quorum_scorer"].metadata["outcome"] for s in log.samples}
+    assert outcomes == {unanimous.item_id: "truncated", "abstains": "abstained"}
+    metrics = _metrics(log)
+    assert metrics["truncation_rate"] == 0.5
+    assert metrics["abstain_rate_unanimous"] == 0.5
+
+
+def test_output_cap_leaves_room_to_reason():
+    assert quorum_sovereign_history().config.max_tokens >= 4000
+
+
 @pytest.mark.parametrize("result_file", ["hist_gpt_blind.json", "hist_gpt_named.json"])
 def test_replaying_the_published_run_reproduces_its_scorecard(result_file):
     """GPT-4.1's recorded answers, scored by the Inspect task, give the published numbers."""
